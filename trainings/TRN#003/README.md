@@ -18,7 +18,7 @@ Transporter le matériel du camp militaire au champ photovoltaïque, drop zone e
 
 Empêcher le transport.
 
-![Drop Zone](http://galevsky.fr/ofcra/briefing/TRN003.png)
+![Drop Zone](http://galevsky.fr/ofcra/briefing/TRN003-3.png)
 
 
 # ORDRES DE BATAILLE
