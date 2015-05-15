@@ -1,4 +1,4 @@
-![Training #004](http://galevsky.fr/ofcra/briefing/TRN004.png)
+![Training #004](https://raw.githubusercontent.com/OFCRA/templates/master/trainings/briefings/trn%23004-1.png)
 
 # SITAC
 
@@ -9,7 +9,7 @@ Sur place, peu de chercheurs aujourd'hui, mais tout de même 5 membres d'une soc
 
 # OBJECTIFS
 
-![Carte Operationnelle](http://galevsky.fr/ofcra/briefing/TRN004-2.png)
+![Carte Operationnelle](https://raw.githubusercontent.com/OFCRA/templates/master/trainings/briefings/trn%23004-2.png)
 
 ## BLUEFOR
 
@@ -19,7 +19,7 @@ S'emparer des documents secrets dans le laboratoire de recherche, sous le dôme.
 
 S'emparer des documents secrets dans le laboratoire de recherche, sous le dôme.
 
-![Sécurité  & Scientifique](http://galevsky.fr/ofcra/briefing/research.png)
+![Sécurité  & Scientifique](https://raw.githubusercontent.com/OFCRA/templates/master/trainings/briefings/trn%23004-3.png)
 
 
 # ORDRES DE BATAILLE
