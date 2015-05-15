@@ -1,4 +1,4 @@
-![Training #003](http://galevsky.fr/ofcra/briefing/TRN003.png)
+![Training #003](https://raw.githubusercontent.com/OFCRA/templates/master/trainings/briefings/trn%23003-1.png)
 
 # SITAC
 
@@ -8,7 +8,7 @@ Du matériel technique permettant l'exploitation photovoltaïque doit être livr
 
 # OBJECTIFS
 
-![Carte Operationnelle](http://galevsky.fr/ofcra/briefing/TRN003-2.png)
+![Carte Operationnelle](https://raw.githubusercontent.com/OFCRA/templates/master/trainings/briefings/trn%23003-2.png)
 
 ## BLUEFOR
 
@@ -18,7 +18,7 @@ Transporter le matériel du camp militaire au champ photovoltaïque, drop zone e
 
 Empêcher le transport.
 
-![Drop Zone](http://galevsky.fr/ofcra/briefing/TRN003-3.png)
+![Drop Zone](https://raw.githubusercontent.com/OFCRA/templates/master/trainings/briefings/trn%23003-3.png)
 
 
 # ORDRES DE BATAILLE
