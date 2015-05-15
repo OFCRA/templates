@@ -1,4 +1,4 @@
-![Training #XXX](http://galevsky.fr/ofcra/briefing/hunt001.png)
+![Training #XXX](https://raw.githubusercontent.com/OFCRA/templates/master/trainings/briefings/trn%23002-1.png)
 
 
 # SITAC
@@ -11,7 +11,7 @@ Un M113 tourne dans la petite ville de Molos au Nord-Est d'Altis, avec son RS d�
 
 La mission se finira au bout de 30 min. ou bien si le M-113 est détruit (peu importe de quelle manière).
 
-![Carte Operationnelle](http://galevsky.fr/ofcra/briefing/hunt002.png)  
+![Carte Operationnelle](https://raw.githubusercontent.com/OFCRA/templates/master/trainings/briefings/trn%23001-2.png)  
 
 
 ## BLUEFOR
