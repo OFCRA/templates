@@ -2,7 +2,7 @@
 
 # SITAC
 
-__Gorgona - 02 juillet, 11h00 loc.__  
+__Gorgona - 02 juillet, 1100 loc.__  
 Du matériel technique permettant l'exploitation photovoltaïque doit être livré rapidement par BLUEFOR pour garantir l'alimentation électrique de l'île, suite à une panne récente. Un chinook en assurera le transport. Un groupe REDFOR ayant été repérée au Nord, un RS est assigné à la sécurisation de la mission.
 
 

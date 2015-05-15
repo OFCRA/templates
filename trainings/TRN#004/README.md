@@ -2,7 +2,7 @@
 
 # SITAC
 
-__Gorgona - 06 juillet, 20h15 loc.__
+__Gorgona - 06 juillet, 20h15 loc.__  
 REDFOR et BLUEFOR mettent tous deux sur pied une opération de récupération de documents secrets se trouvant dans un laboratoire clandestin au SE de l'île de Gorgona.
 Sur place, peu de chercheurs aujourd'hui, mais tout de même 5 membres d'une société privée de sécurité armés de M-16 sur place.
 
