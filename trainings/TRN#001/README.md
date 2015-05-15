@@ -1,4 +1,4 @@
-![Training #XXX](http://galevsky.fr/ofcra/briefing/chalkeia001.png)
+![Training #XXX](https://raw.githubusercontent.com/OFCRA/templates/master/trainings/briefings/trn%23001-1.png)
 
 
 # SITAC
@@ -9,7 +9,7 @@ La mission se finira au bout de 30 min. ou bien si un attaquant réussi à s'emp
 
 # OBJECTIFS
 
-![Carte Operationnelle](http://galevsky.fr/ofcra/briefing/chalkeia002.png)
+![Carte Operationnelle](https://raw.githubusercontent.com/OFCRA/templates/master/trainings/briefings/trn%23001-2.png)
 
 
 ## BLUEFOR
