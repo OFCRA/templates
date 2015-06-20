@@ -1,0 +1,18 @@
+author = "OFCRA";
+onLoadName = "Training Commun #005";
+onLoadMission = "www.ofcra.org";
+loadScreen = "ofcra\img\overview.jpg";
+onLoadIntro = "Prepare for the fight !";
+respawn = 0;
+
+enableDebugConsole = 0;
+
+class Header {
+	gameType=TDM;
+	minPlayers = 1;
+	maxPlayers = 12;
+};
+
+// Definition du tableau des scores
+#include "ofcra\score_board\defines.hpp"
+#include "ofcra\score_board\dialogs.hpp"

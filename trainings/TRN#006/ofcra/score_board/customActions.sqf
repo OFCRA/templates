@@ -1,0 +1,3 @@
+doNothing = {
+	// ne fait rien
+};
