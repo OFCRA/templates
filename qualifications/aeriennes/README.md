@@ -1,4 +1,12 @@
 
+# @Mods Nécessaires
+
+* @CUP_Vehicles
+* @OFCRA
+* @RHSAFRF
+* @RHSGREF
+* @RHSUSAF
+* @task_force_radio
 
 # SITAC
 
@@ -158,23 +166,23 @@ La grande surface posable est propice à l'entrainement des débutants.
 
 Cette base sert de base pour les opérations menées sur la partie Sud d'Altis.
 
-# Qualifications
+# Qualifications Hélico ou Avion
 
 ![Qualification Aérienne Basique](https://raw.githubusercontent.com/OFCRA/templates/master/qualifications/aeriennes/basic.png)
 
 ## Contenu
 
 * Espaces Aériens: aérodrômes (SOL/CTR/APPROCHE)
-* Circuit: tour de piste
-* Procédures: départs et arrivées VFR (coms simplifiées), Helico: rolling/fixe, Avion: std/break
+* Circuit: tours de piste
+* Procédures: départs et arrivées VFR avec coms simplifiées (Hélico: rolling/fixe, Avion: std/break)
 * Pilotage: maniabilité, posés en campagne
 
 
 ## Ateliers
 
-* 3 deco/atterro d’affilés en utilisant les procédures
-* Maniement au sol (Helico uniq.): suivi de route <15m
-* Contre-mesures: évasives à réussir (tireur au sol)
+1. 3 déco/atterro d’affilés en utilisant les procédures
+2. Maniement au sol (Helico uniq.): suivi de route <15m
+3. Contre-mesures: évasives à réussir (tireur au sol)
 
 
 ![Qualification Aérienne Avancée](https://raw.githubusercontent.com/OFCRA/templates/master/qualifications/aeriennes/advanced.png)
@@ -185,14 +193,20 @@ Cette base sert de base pour les opérations menées sur la partie Sud d'Altis.
 * Vol en patrouille
 * Sling Load (Hélico uniq.)
 * Auto-rotations (Hélico uniq.)
-* Théorie du combat: distances d'engagement, types de munitions, gestion de l'NRJ, placement, altitudes, seul et en patrouille
+* Théorie du combat:
+      distances d'engagement
+      types de munitions
+      gestion de l'NRJ
+      placement
+      altitudes
+      solo/en patrouille
 
 ## Ateliers
 
-* arrivée/dépose/recup vol stationnaire sur toit  (Hélico uniq.)
-* Circuit TBA au travers de portes
-* suivi du leader + lead de patrouille
-* 3 véhicules à héli-treuiller
-* 3 auto-rotations à réussir
-* Engagements A/S: cibles à détruire en champ de tir
-* Engagements A/A: cibles aériennes à détruire 
+1. arrivée/dépose/récup en vol stationnaire sur toit (Hélico uniq.)
+2. Circuit TBA au travers de portes
+3. suivi du leader + lead de patrouille
+4. 3 véhicules à héli-treuiller
+5. 3 auto-rotations à réussir
+6. Engagements A/S: cibles à détruire en champ de tir
+7. Engagements A/A: cibles aériennes à détruire
