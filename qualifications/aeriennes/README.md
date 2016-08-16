@@ -180,7 +180,7 @@ Cette base sert de base pour les opérations menées sur la partie Sud d'Altis.
 
 ## Ateliers
 
-1. 3 déco/atterro d’affilés en utilisant les procédures
+1. Trois déco/atterro d’affilés en utilisant les procédures
 2. Maniement au sol (Helico uniq.): suivi de route <15m
 3. Contre-mesures: évasives à réussir (tireur au sol)
 
@@ -194,19 +194,19 @@ Cette base sert de base pour les opérations menées sur la partie Sud d'Altis.
 * Sling Load (Hélico uniq.)
 * Auto-rotations (Hélico uniq.)
 * Théorie du combat:
-      distances d'engagement
-      types de munitions
-      gestion de l'NRJ
-      placement
-      altitudes
-      solo/en patrouille
+  * distances d'engagement
+  * types de munitions
+  * gestion de l'NRJ
+  * placement
+  * altitudes
+  * solo/en patrouille
 
 ## Ateliers
 
-1. arrivée/dépose/récup en vol stationnaire sur toit (Hélico uniq.)
+1. Arrivée/dépose/récup en vol stationnaire sur toit (Hélico uniq.)
 2. Circuit TBA au travers de portes
-3. suivi du leader + lead de patrouille
-4. 3 véhicules à héli-treuiller
-5. 3 auto-rotations à réussir
+3. Suivi du leader + lead de patrouille
+4. Trois véhicules à héli-treuiller
+5. Trois auto-rotations à réussir
 6. Engagements A/S: cibles à détruire en champ de tir
 7. Engagements A/A: cibles aériennes à détruire
