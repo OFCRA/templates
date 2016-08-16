@@ -7,7 +7,7 @@ __Altis - 15 août, 08h00 loc.__
 ![Carte Tactique](https://raw.githubusercontent.com/OFCRA/templates/master/qualifications/aeriennes/tactical-map.png)
 
 
-# Base Militaire Aéroport International d'Altis - GRID#151-173
+# Aéroport International d'Altis - GRID#151-173
 
 | NOM                 | Aéroport International d'Altis (AIA)
 |---------------------|-------------------------------------
@@ -159,10 +159,3 @@ Cette base sert de base pour les opérations menées sur la partie Sud d'Altis.
 
 
 ![Qualification Aérienne Avancée](https://raw.githubusercontent.com/OFCRA/templates/master/qualifications/aeriennes/advanced.png)
-
-
-
-# METEO
-
-Couverture 1/8, plafond 2700 m
-Vent moyen SE
