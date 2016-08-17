@@ -1,3 +1,13 @@
+# Changelog
+
+## v0.0.1 - 2016-08-17
+\+ First version
+
+# Infos diverses
+
+Le server admin est Zeus Game Master.  
+Il y a 1x groupe constitué de 2x instructeurs + 3x stagiaires sur chaque base aérienne.
+
 
 # @Mods Nécessaires
 
@@ -43,7 +53,9 @@ __Altis - 15 août, 08h00 loc.__
 
 ### Notes
 
-L'aéroport International d'Altis est mixte: il accueille également la Base Aérienne Principale de l'île.
+L'aéroport International d'Altis est mixte: il accueille également la Base Aérienne Principale de l'île.  
+Cette base héberge un large contingent d'appareils divers, d'attaques et de transport.  
+Sur le parking de l'aéroport civil, se trouvent en statique des appareils US pour identification visuelle.
 
 
 ## Aérodrôme Militaire de Therisa
@@ -71,7 +83,8 @@ L'aéroport International d'Altis est mixte: il accueille également la Base Aé
 
 
 ### Notes
-Ce aérodrôme est dédié aux hélicoptères d'attaques, le taxiway a été transformé en parking.
+Ce aérodrôme est dédié aux hélicoptères d'attaques, avec la totalité des appareils de combats disponibles.  
+Le taxiway a été transformé en parking pour y stocker tous les appareils.
 
 
 ## Aérodrôme Militaire de Krya Nera
@@ -90,11 +103,22 @@ Ce aérodrôme est dédié aux hélicoptères d'attaques, le taxiway a été tra
 
 | TYPE                | QUANTITE
 |---------------------|---------
-| - | -
+| Mi-8MT Cargo        | 2
 
 
 ### Notes
-Ce aérodrôme situé au Nord-Ouest de l'île ne sert qu'à l'entrainement aux opérations logistiques d'héli-treuillage.
+Ce aérodrôme situé au Nord-Ouest de l'île ne sert qu'à l'entrainement aux opérations logistiques d'hélitreuillage.
+Il y a des charges hélitreuillables:
+
+* 3x UAZ
+* 4x chargements dans filets
+* 1x charge sur un camion
+
+Il y a également 3 aires de dépose dont une avec un camion à charger directement sur la base, ainsi que 3 autres aires réparties aux alentours:
+
+* GRID#096-208: Ferme isolée à 500m au Nord du village d'Abdera, sur une crête.
+* GRID#090-208: Crête à 500 m au Sud de la base
+* GRID#085-208: fermes à 650m au Sud-Ouest de la base
 
 
 ## Aérodrôme Militaire de Molos
@@ -119,6 +143,7 @@ Ce aérodrôme situé au Nord-Ouest de l'île ne sert qu'à l'entrainement aux o
 
 ### Notes
 Situé à l'extrême Nord-Est, cet aérodrôme sert à l'entrainement combat des pilotes expérimentés de Su-25.
+La piste 04 remonte et permet de stopper plus rapidement tandis que la piste 22 en descente n'est pratiquable que par grand vent de face.
 
 
 ## Aérodrôme Militaire d'Almyra
@@ -139,9 +164,11 @@ Situé à l'extrême Nord-Est, cet aérodrôme sert à l'entrainement combat des
 |---------------------|---------
 | Su-25               | 3
 | Su-25 (Kh-29)       | 2
+| Mi-8AMT             | 2
+| Ka-60               | 1
 
 ### Notes
-La grande surface posable est propice à l'entrainement des débutants.
+La grande surface posable hors-piste est propice à l'entrainement des débutants, que ce soit en avion ou en hélicoptère.
 
 
 ## Base Militaire de Selakano
@@ -161,10 +188,13 @@ La grande surface posable est propice à l'entrainement des débutants.
 | TYPE                | QUANTITE
 |---------------------|---------
 | Ka-60               | 1
+| Mi-6A               | 1
+| MH-6                | 2
 
 ### Notes
 
-Cette base sert de base pour les opérations menées sur la partie Sud d'Altis.
+Cette base sert de base pour les opérations menées sur la partie Sud d'Altis.  
+Le plus gros hélicoptère Mi-6A y est stationné ainsi que 2 MH-6 vanilla : il s'agit des hélicoptères les plus simples à piloter.
 
 # Qualifications Hélico ou Avion
 
