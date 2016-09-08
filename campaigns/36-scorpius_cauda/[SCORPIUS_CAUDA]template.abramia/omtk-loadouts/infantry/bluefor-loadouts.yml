@@ -213,7 +213,8 @@ antitank:
     name: B_Carryall_cbr
     magazines:
       - 1x tf47_m3maaws_HEAT
-      - 2x tf47_m3maaws_HEDP
+      - 1x tf47_m3maaws_HE
+      - 1x tf47_m3maaws_HEDP
   vest:
     magazines:
       - 8x 30#rhs_mag_30Rnd_556x45_M855A1_Stanag
