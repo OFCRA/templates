@@ -8,7 +8,8 @@ _handle = nil;
 	"omtk\launch_mode\briefing.sqf",
 	"omtk\launch_mode\markers.sqf",
 	"omtk\launch_mode\campaign.sqf",
-	"omtk\launch_mode\test.sqf"];
+	"omtk\launch_mode\test.sqf",
+	"omtk\launch_mode\training.sqf"];
 	
 	
 _mode = "OMTK_LAUNCH_MODE" call BIS_fnc_getParamValue;
@@ -31,6 +32,10 @@ switch (_mode) do {
     	_mode = "briefing";
     	[] call omtk_lm_briefing_mode;
     };
+	case 5: {
+	    _mode = "training";
+	    [] call omtk_lm_training_mode;
+	  };
 };
 
 ["launch_mode end", "INFO", false] call omtk_log;

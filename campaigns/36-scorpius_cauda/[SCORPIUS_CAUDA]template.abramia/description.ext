@@ -27,8 +27,8 @@ class Params
 	class OMTK_LAUNCH_MODE
 	{
 		title = "Mission mode";
-		texts[] = {"standard", "campaign", "markers", "test", "briefing"};
-		values[] = {0,1,2,3,4};
+		texts[] = {"standard", "campaign", "markers", "test", "briefing", "training"};
+		values[] = {0,1,2,3,4,5};
 		default = 1;
 	};
 	class OMTK_DURATION_OVERRIDE
@@ -106,7 +106,7 @@ class Params
 		title = "vehicles_cargos module";
 		texts[] = {"disabled","enabled"};
 		values[] = {0,1};
-		default = 1;
+		default = 0;
 	};
 	class OMTK_MODULE_VEHICLES_CONFIGURATION_TIEQUIPMENTS_DISABLING
 	{
@@ -120,7 +120,7 @@ class Params
 		title = "unkown vehicles cargo emptying";
 		texts[] = {"disabled","enabled"};
 		values[] = {0,1};
-		default = 1;
+		default = 0;
 	};
 	class OMTK_MODULE_WARM_UP
 	{
