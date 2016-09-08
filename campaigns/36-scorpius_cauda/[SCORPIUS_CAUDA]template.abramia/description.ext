@@ -24,19 +24,12 @@ class Header {
 
 class Params
 {
-	class OMTK_LAUNCH_MODE
+	class OMTK_MODULE_LAUNCH_MODE
 	{
 		title = "Mission mode";
 		texts[] = {"standard", "campaign", "markers", "test", "briefing", "training"};
 		values[] = {0,1,2,3,4,5};
 		default = 1;
-	};
-	class OMTK_DURATION_OVERRIDE
-	{
-		title = "Mission duration override";
-		texts[] = {"disabled","15 min", "30 min","45 min"," 1 h","1 h 15 min","1 h 30 min","1 h 45 min"," 2 h"};
-		values[] = {0,900,1800,2700,3600,4500,5400,6300,7200};
-		default = 0;
 	};
 	class OMTK_MODULE_DIFFICULTY_CHECK
 	{
@@ -49,15 +42,8 @@ class Params
 	{
 		title = "IA_skills module";
 		texts[] = {"disabled","enabled"};
-		values[] = {0,1,2};
+		values[] = {0,1};
 		default = 1;
-	};
-	class OMTK_MODULE_INFANTRY_LOADOUTS
-	{
-		title = "infantry_loadouts module";
-		texts[] = {"disabled","human", "human+IA"};
-		values[] = {0,1,2};
-		default = 0;
 	};
 	class OMTK_MODULE_KILL_LOGGER
 	{
@@ -79,6 +65,13 @@ class Params
 		texts[] = {"disabled","enabled"};
 		values[] = {0,1};
 		default = 1;
+	};
+	class OMTK_MODULE_SCORE_BOARD_DURATION_OVERRIDE
+	{
+		title = "score_board duration override";
+		texts[] = {"disabled","15 min", "30 min","45 min"," 1 h","1 h 15 min","1 h 30 min","1 h 45 min"," 2 h"};
+		values[] = {0,900,1800,2700,3600,4500,5400,6300,7200};
+		default = 0;
 	};
 	class OMTK_MODULE_TACTICAL_PARADROP
 	{
@@ -104,20 +97,6 @@ class Params
 	class OMTK_MODULE_VEHICLES_CONFIGURATION
 	{
 		title = "vehicles_cargos module";
-		texts[] = {"disabled","enabled"};
-		values[] = {0,1};
-		default = 0;
-	};
-	class OMTK_MODULE_VEHICLES_CONFIGURATION_TIEQUIPMENTS_DISABLING
-	{
-		title = "vehicles TIEquipments disabling";
-		texts[] = {"disabled","enabled"};
-		values[] = {0,1};
-		default = 1;
-	};
-	class OMTK_MODULE_VEHICLES_CONFIGURATION_UNKNOWN_EMPTYING
-	{
-		title = "unkown vehicles cargo emptying";
 		texts[] = {"disabled","enabled"};
 		values[] = {0,1};
 		default = 0;

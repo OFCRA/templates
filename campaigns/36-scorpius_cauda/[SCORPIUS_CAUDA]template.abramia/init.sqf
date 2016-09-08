@@ -9,7 +9,7 @@ OMTK_TP_REDFOR_RESTRICTIONS = [
 ];
 
 // score_board: définition du tableau des scores et des objectifs
-OMTK_SB_DUREE_MISSION = [0, 10, 0]; // [hours, minutes, seconds]
+OMTK_SB_DUREE_MISSION = [2, 0, 0]; // [hours, minutes, seconds]
 
 execVM "customScripts.sqf";
 
@@ -46,3 +46,7 @@ tf_no_auto_long_range_radio = true;
 
 //// OMTK EXECUTION
 execVM "omtk\load_modules.sqf";
+
+
+////// SERVER MODS
+// @CBA_A3;@CUP_Terrains_Core;@ace;@Ace-server;@RHSAFRF;@RHSUSAF;@RHSGREF;@OFCRA;@task_force_radio;@RHS_Compat;

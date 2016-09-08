@@ -6,13 +6,17 @@ common:
       - 2x rhs_mag_rdg2_white
     items:
       - 5x ACE_fieldDressing
-      - 1x ACE_epinephrine
-      - 1x ACE_morphine
+      - ACE_epinephrine
+      - ACE_morphine
     backpacks:
 
 
 car:
   classes:
+    - RHS_UAZ_MSV_01
+    - rhs_uaz_vdv
+    - rhs_tigr_vdv
+    - rhs_tigr_sts_vdv
   cargo:
     items:
       - 8x NVGoggles_OPFOR
@@ -20,7 +24,7 @@ car:
 
 truck:
   classes:
-    - rhs_truck
+    - rhs_gaz66o_vdv
   cargo:
     weapons:
       - 2x rhs_weap_ak74m_plummag_folded
@@ -36,7 +40,7 @@ truck:
 
 apc:
   classes:
-    - Wheeled_APC_F
+    - rhs_btr80a_vdv
     - rhs_btr80a_msv
   cargo:
     weapons:
@@ -51,9 +55,7 @@ apc:
 
 ifv:
   classes:
-    - rhs_bmd_base
-    - rhs_bmp1tank_base
-    - rhs_bmp3tank_base
+    - rhs_bmd4m_vdv
   cargo:
     weapons:
       - 3x rhs_weap_ak74m_plummag_folded
@@ -104,7 +106,7 @@ anti-aircraft:
 
 heli_transport:
   classes:
-    - RHS_Mi8_base
+    - RHS_Mi8mt_vdv
   cargo:
     weapons:
       - 4x rhs_weap_ak74m_plummag_folded

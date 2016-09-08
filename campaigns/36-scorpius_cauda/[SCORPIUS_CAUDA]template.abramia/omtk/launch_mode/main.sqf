@@ -12,9 +12,8 @@ _handle = nil;
 	"omtk\launch_mode\training.sqf"];
 	
 	
-_mode = "OMTK_LAUNCH_MODE" call BIS_fnc_getParamValue;
-["launch mode set to " + str(_mode) + ".", "INFO", false] call omtk_log;
-		
+_mode = "OMTK_MODULE_LAUNCH_MODE" call BIS_fnc_getParamValue;
+
 switch (_mode) do {
     case 1: {
     	_mode = "campaign";
@@ -38,4 +37,5 @@ switch (_mode) do {
 	  };
 };
 
+["launch mode set to " + str(_mode) + ".", "INFO", false] call omtk_log;
 ["launch_mode end", "INFO", false] call omtk_log;

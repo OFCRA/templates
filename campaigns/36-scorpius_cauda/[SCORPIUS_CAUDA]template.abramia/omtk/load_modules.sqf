@@ -14,7 +14,7 @@ if (isServer) then {
 	if (("OMTK_MODULE_IA_SKILLS"        call BIS_fnc_getParamValue) > 0) then { execVM "omtk\ia_skills\main.sqf"; };
 	if (("OMTK_MODULE_KILL_LOGGER"      call BIS_fnc_getParamValue) > 0) then { execVM "omtk\kill_logger\main.sqf"; };
 	if (("OMTK_MODULE_VEHICLES_CONFIGURATION"  call BIS_fnc_getParamValue) > 0) then { execVM "omtk\vehicles_configuration\main.sqf"; };	
-	if (("OMTK_MODULE_DIFFICULTY_CHECK" call BIS_fnc_getParamValue) > 0  && ("OMTK_LAUNCH_MODE" call BIS_fnc_getParamValue) < 2) then { execVM "omtk\difficulty_check\main.sqf"; };
+	if (("OMTK_MODULE_DIFFICULTY_CHECK" call BIS_fnc_getParamValue) > 0  && ("OMTK_MODULE_LAUNCH_MODE" call BIS_fnc_getParamValue) < 2) then { execVM "omtk\difficulty_check\main.sqf"; };
 };
 
 if (hasInterface) then {
@@ -25,7 +25,7 @@ if (("OMTK_MODULE_INFANTRY_LOADOUTS" call BIS_fnc_getParamValue) > 0) then { exe
 
 execVM "omtk\launch_mode\main.sqf";
 
-if (("OMTK_LAUNCH_MODE" call BIS_fnc_getParamValue) < 1) then {
+if (("OMTK_MODULE_LAUNCH_MODE" call BIS_fnc_getParamValue) < 1) then {
 	if (("OMTK_MODULE_WARM_UP" call BIS_fnc_getParamValue) > 0) then {
 		execVM "omtk\warm_up\main.sqf";
 	} else {

@@ -4,13 +4,17 @@ common:
     ammo:
     items:
       - 5x ACE_fieldDressing
-      - 1x ACE_epinephrine
-      - 1x ACE_morphine
+      - ACE_epinephrine
+      - ACE_morphine
     backpacks:
 
 
 car:
   classes:
+    - rhsusf_m1025_w_m2
+    - rhsusf_m998_w_4dr_fulltop
+    - rhsusf_m998_w_4dr_halftop
+    - rhsusf_m998_w_2dr_fulltop
   cargo:
     ammo:
       - 2x rhs_mag_m67
@@ -22,7 +26,7 @@ car:
 
 truck:
   classes:
-    - rhs_truck
+    - rhsusf_M1083A1P2_wd_fmtv_usarmy
   cargo:
     weapons:
       - 2x rhs_weap_m4
@@ -41,7 +45,9 @@ truck:
 
 apc:
   classes:
-    - Wheeled_APC_F
+    - rhsusf_m113_usarmy
+    - rhsusf_m113_usarmy_MK19
+    - rhsusf_M1117_W
   cargo:
     weapons:
       - 3x rhs_weap_m4
@@ -50,7 +56,7 @@ apc:
       - 3x rhs_mag_m67
       - 3x rhs_mag_an_m8hc
       - 9x rhs_mag_30Rnd_556x45_M855A1_Stanag
-      - 1x rhs_m136_hedp_mag
+      - rhs_m136_hedp_mag
     items:
       - 10x NVGoggles_OPFOR
       - 10x rhsusf_acc_anpeq15
@@ -58,9 +64,7 @@ apc:
 
 ifv:
   classes:
-    - rhs_bmd_base
-    - rhs_bmp1tank_base
-    - rhs_bmp3tank_base
+    - RHS_M2A3_wd
   cargo:
     weapons:
       - 3x rhs_weap_m4
@@ -68,8 +72,8 @@ ifv:
       - 3x rhs_mag_m67
       - 3x rhs_mag_an_m8hc
       - 9x rhs_mag_30Rnd_556x45_M855A1_Stanag
-      - 1x tf47_m3maaws_HEAT
-      - 1x tf47_m3maaws_HE
+      - tf47_m3maaws_HEAT
+      - tf47_m3maaws_HE
     items:
       - 10x NVGoggles_OPFOR
       - 10x rhsusf_acc_anpeq15
@@ -104,9 +108,6 @@ artillery:
 
 anti-aircraft:
   classes:
-    - rhs_zsutank_base
-    - rhs_a3t72tank_base
-    - rhs_a3spruttank_base
   cargo:
     weapons:
       - 3x rhs_weap_m4
@@ -120,7 +121,7 @@ anti-aircraft:
 
 heli_transport:
   classes:
-    - RHS_Mi8_base
+    - RHS_UH60M
   cargo:
     weapons:
       - 4x rhs_weap_m4
@@ -135,8 +136,6 @@ heli_transport:
 
 heli_attack:
   classes:
-    - RHS_Mi24_base
-    - RHS_Ka52_base
   cargo:
     weapons:
       - 2x rhs_weap_m4

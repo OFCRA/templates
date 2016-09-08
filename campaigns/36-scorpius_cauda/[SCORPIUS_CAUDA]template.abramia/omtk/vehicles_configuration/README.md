@@ -39,10 +39,6 @@ When enabled, will clear then fill in all identified vehicles cargos
 
 When enabled, will disable TI for all vehicles.
 
-#### unkown vehicles cargo emptying
-
-* enabled (default)
-* disabled
 
 When enabled, will clear the cargo of unidentified vehicles (good to remove Arma 3 stuff when using mods like RHSmod or CUP)
 

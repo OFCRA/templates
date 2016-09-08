@@ -11,8 +11,8 @@ if (isServer) then {
 	_endSecond = OMTK_SB_DUREE_MISSION select 2;
 	_omtk_mission_duration = 3600*_endHour + 60*_endMinute + _endSecond - 1;
 	
-	if (("OMTK_DURATION_OVERRIDE" call BIS_fnc_getParamValue) > 0) then {
-		_override = ("OMTK_DURATION_OVERRIDE" call BIS_fnc_getParamValue);
+	if (("OMTK_MODULE_SCORE_BOARD_DURATION_OVERRIDE" call BIS_fnc_getParamValue) > 0) then {
+		_override = ("OMTK_MODULE_SCORE_BOARD_DURATION_OVERRIDE" call BIS_fnc_getParamValue);
 		_omtk_mission_duration = _override - 1;
 		_endHour   = floor (_override/3600);
 		_endMinute = floor ((_override - (3600*_endHour)) / 60);

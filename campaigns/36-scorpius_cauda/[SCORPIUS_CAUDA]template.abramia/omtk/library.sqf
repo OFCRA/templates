@@ -129,3 +129,13 @@ omtk_get_side = {
 omtk_is_using_ACEmod = {
 	isClass(configFile >> "CfgPatches" >> "ace_main");
 };
+
+
+omtk_unlock_vehicles = {
+	{
+		_locked_by_omtk = _x getVariable ["omtk_lock", 0];
+		if (_locked_by_omtk > 0) then {
+			_x lock 0;
+		};
+	} foreach vehicles;
+};
