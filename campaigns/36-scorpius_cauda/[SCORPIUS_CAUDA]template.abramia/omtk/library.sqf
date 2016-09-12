@@ -1,5 +1,3 @@
-////////// NE PAS TOUCHER EN DESSOUS
-
 omtk_log = {
 	private ["_msg", "_tag", "_chat"];
 	_msg  = _this select 0;
@@ -7,7 +5,7 @@ omtk_log = {
 	_chat = _this select 2;
 	
 	if (_chat) then { systemChat ('[OMTK] ' + _msg)};
-	diag_log  ('[OMTK] ' + _tag + ': ' + _msg);
+	diag_log(text ('[OMTK] ' + _tag + ': ' + _msg));
 };
 
 omtk_fnc_addItem = {

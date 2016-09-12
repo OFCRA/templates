@@ -2,22 +2,22 @@ doNothing = {
 	// ne fait rien
 };
 
-doPrint = {
-	hint "Informations transmises";
+doGetInfo = {
+	hint "Contact etabli !";
 };
 
 
 if (hasInterface) then {
-	validateCellphone = {
+	validateObject = {
 		_container = _this select 0;
 		_item = _this select 1;
-		if ( (_container == "caisse") && (_item == "ACE_Cellphone") ) then {
+		if ( (_container == "obj_1608021") && (_item == "DemoCharge_Remote_Mag") ) then {
 			[1, true] call omtk_setFlagResult;
 		};
 		
 	};
 
 	if (side player == West) then {
-		player addEventHandler ["Put", {[str (_this select 1), _this select 2] call validateCellphone;}]; 
+		player addEventHandler ["Put", {[str (_this select 1), _this select 2] call validateObject;}]; 
 	};
 };

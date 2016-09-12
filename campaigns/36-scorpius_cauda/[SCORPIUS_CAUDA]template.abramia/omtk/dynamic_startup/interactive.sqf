@@ -1,7 +1,7 @@
 OMTK_LM_CHOSEN_SPAWN_FOR_PLAYER = 0;
 
 
-omtk_lm_lock_vehicles = {
+omtk_ds_lock_vehicles = {
 	_side_color = _this select 1;
 	{
 		_spawn_number = _x getVariable ["omtk_" + _side_color + "_spawn", 0];
@@ -13,17 +13,17 @@ omtk_lm_lock_vehicles = {
 				_x setVariable["omtk_lock", 1];
 			};
 		};
-	} foreach vehicles;
+	} forEach vehicles;
 };
 
 
-omtk_lm_teleport = {
+omtk_ds_teleport = {
 	_side_color = _this select 1;
 	_spawn_number = _this select 0;
 	_spawn_id = _side_color + "_spawn_" + str(_spawn_number);
 	OMTK_LM_CHOSEN_SPAWN_FOR_PLAYER = _spawn_number;
 	
-	["Teleport to spawn '" + _spawn_id + "'", "CAMPAIGN", false] call omtk_log;
+	["Teleport to spawn '" + _spawn_id + "'", "INTERACTIVE", false] call omtk_log;
 	_spawn = missionNamespace getVariable [_spawn_id, nil];
   _units = [];
 	{
@@ -32,35 +32,30 @@ omtk_lm_teleport = {
 		};
 	} forEach allUnits;
 	
-	[_spawn_number, _side_color] remoteExec ["omtk_lm_lock_vehicles", 2, false];
+	[_spawn_number, _side_color] remoteExec ["omtk_ds_lock_vehicles", 2, false];
 	[_units, (getPos _spawn), 2] call omtk_mass_teleport;	
 };
 
 
-omtk_lm_get_vehicles = {
-	_OBs = nil;
-	switch (side player) do {
-		case west: { _OBs = OMTK_LM_BLUEFOR_OB; };
-		case east: { _OBs = OMTK_LM_REDFOR_OB; };
-	};
+omtk_ds_get_vehicles = {
+	_OBs = missionNamespace getVariable ["OMTK_LM_" + toUpper([_this select 0] call omtk_get_side) + "_OB", []];
 	_OBs;
 };
 
 
-omtk_lm_remove_spawn_flags = {
-	{	deleteVehicle _x;	} forEach (call omtk_lm_get_spawn_flags);
-	{
-			_flag = missionNamespace getVariable [_x, nil];
-			if (!isNil("_flag")) then {
-				deleteVehicle _flag;
-			};
-	} forEach ['bluefor_spawn_0', 'redfor_spawn_0'];
+omtk_ds_remove_spawn_flags = {
+	{	deleteVehicle _x;	} forEach ([_this select 0] call omtk_ds_get_spawn_flags);
+	_flag = missionNamespace getVariable [toUpper([_this select 0] call omtk_get_side) + '_spawn_0', nil];
+	if (!isNil("_flag")) then {
+		deleteVehicle _flag;
+	};
 };
 
-omtk_lm_remove_static_vehicles = {
-	_side = [side player] call omtk_get_side;
+
+omtk_ds_remove_static_vehicles = {
+	_side = [_this select 0] call omtk_get_side;
 	{	
-		_flags_number = [] call omtk_lm_get_spawn_flags;
+		_flags_number = [_this select 0] call omtk_ds_get_spawn_flags;
 		for "_i" from 1 to (count _flags_number) do {
 			if (_i != OMTK_LM_CHOSEN_SPAWN_FOR_PLAYER) then {
 				_spawn_id = _side + "_spawn_" + str(_i);
@@ -75,45 +70,38 @@ omtk_lm_remove_static_vehicles = {
 	} foreach vehicles;
 };
 
-omtk_lm_continue_startup = {		
-	if (("OMTK_MODULE_WARM_UP" call BIS_fnc_getParamValue) > 0) then {
-		execVM "omtk\warm_up\main.sqf";
-	} else {
-		[] remoteExec ["omtk_unlock_vehicles", 2, false];
-		if (("OMTK_MODULE_SCORE_BOARD" call BIS_fnc_getParamValue) > 0) then {	execVM "omtk\score_board\main.sqf"; };
-	};
-};
 
-omtk_lm_side_is_ready = {
+omtk_ds_side_is_ready = {
 	_side = side player;
 
 	("[OMTK] Side " + str(_side) + " ready for warmup !") remoteExecCall ["systemChat"];
-	_omtk_lm_ready_west = missionNamespace getVariable ["omtk_lm_ready_west", false];
-	_omtk_lm_ready_east = missionNamespace getVariable ["omtk_lm_ready_east", false];
+	_omtk_ds_ready_west = missionNamespace getVariable ["omtk_ds_ready_west", false];
+	_omtk_ds_ready_east = missionNamespace getVariable ["omtk_ds_ready_east", false];
 	
 	switch (_side) do {
-			case east: { _omtk_lm_ready_east = true; };
-			case west: { _omtk_lm_ready_west = true; };
+			case east: { _omtk_ds_ready_east = true; };
+			case west: { _omtk_ds_ready_west = true; };
 			default {
-				["unknown side for omtk_lm_ready", "ERROR", true] call omtk_log;
+				["unknown side for omtk_ds_ready", "ERROR", true] call omtk_log;
 			};
 	};
 
-	missionNamespace setVariable ["omtk_lm_ready_west", _omtk_lm_ready_west];
-	missionNamespace setVariable ["omtk_lm_ready_east", _omtk_lm_ready_east];
-	publicVariable "omtk_lm_ready_west";
-	publicVariable "omtk_lm_ready_east";
+	missionNamespace setVariable ["omtk_ds_ready_west", _omtk_ds_ready_west];
+	missionNamespace setVariable ["omtk_ds_ready_east", _omtk_ds_ready_east];
+	publicVariable "omtk_ds_ready_west";
+	publicVariable "omtk_ds_ready_east";
 	
-	call omtk_lm_remove_spawn_flags;
-	call omtk_lm_remove_static_vehicles;
+	[_side] call omtk_ds_remove_spawn_flags;
+	[_side] call omtk_ds_remove_static_vehicles;
 	
-	if (_omtk_lm_ready_west && _omtk_lm_ready_east) then {
-			[] remoteExec ["omtk_lm_continue_startup", 0, true];
+	if (_omtk_ds_ready_west && _omtk_ds_ready_east) then {
+			remoteExecCall ["omtk_unlock_vehicles", 2, false];
+			remoteExecCall ["omtk_load_warmup", 0, true];
 	};
 };
 
 
-omtk_lm_add_OBs = {
+omtk_ds_add_OBs = {
 	_index = _this select 0;
 	_spawn_id = _this select 1;
 	["loading OB num " + str(_index) + " on spawn " + str(_spawn_id), "INFO", false] call omtk_log;
@@ -122,7 +110,7 @@ omtk_lm_add_OBs = {
 	_trigger_name = _side + "_vehicles_" + str (_spawn_id);
 	_trigger = missionNamespace getVariable [_trigger_name, nil];
 	_trigger_pos = getPos _trigger;
-	_OBs = [] call omtk_lm_get_vehicles;
+	_OBs = [side player] call omtk_ds_get_vehicles;
 	_OBs = _OBs select _index;
 	_idx = 0;
 	_distance = 15;
@@ -151,10 +139,11 @@ omtk_lm_add_OBs = {
 	} forEach _OBs;
 };
 
-omtk_lm_get_spawn_flags = {
+
+omtk_ds_get_spawn_flags = {
 	_results = [];
 	_still_found = true;
-	_side = [(side player)] call omtk_get_side;
+	_side = [_this select 0] call omtk_get_side;
 	_idx = 0;
 	while {_still_found} do {
 		_idx = _idx + 1;
@@ -170,7 +159,8 @@ omtk_lm_get_spawn_flags = {
 	_results;
 };
 
-omtk_lm_campaign_mode = {
+
+omtk_ds_interactive_mode = {
 	
 	if (isServer) then {	
 		{
@@ -182,32 +172,32 @@ omtk_lm_campaign_mode = {
 	};
 
 	_class = typeOf player;
-	if (hasInterface && _class in ["B_officer_F", "O_officer_F", "B_Soldier_SL_F"]) then {
-		_side = [(side player)] call omtk_get_side;
+	if (hasInterface && _class in ["B_officer_F", "O_officer_F", "B_Soldier_SL_F", "O_Soldier_SL_F"]) then {
+		_side = [side player] call omtk_get_side;
 		_base_spawn = missionNamespace getVariable [_side + "_spawn_0", nil];
 		if (!isNil("_base_spawn")) then {
-			_flags = call omtk_lm_get_spawn_flags;
-			_OBs = [] call omtk_lm_get_vehicles;
+			_flags = [side player] call omtk_ds_get_spawn_flags;
+			_OBs = [side player] call omtk_ds_get_vehicles;
 			_side_color = [side player] call omtk_get_side;
 			_idx = 0;
 			{
 				_spawn = _x;
 				_idx = _idx + 1;
 				_spawn_name = _spawn getVariable ["omtk_spawn", str(_idx)];
-				["Add spawn '" + _spawn_name + "'", "CAMPAIGN", false] call omtk_log;
+				["Add spawn '" + _spawn_name + "'", "INTERACTIVE", false] call omtk_log;
 					
-				_base_spawn addAction["<t color='#0000FF'>Spawn in " + _spawn_name + "</t>", {[(_this select 3 select 0), (_this select 3 select 1)] call omtk_lm_teleport;}, [_idx, _side_color]]; 
-				_spawn addAction["<t color='#0000FF'>return to Base</t>", {[(_this select 3 select 0), (_this select 3 select 1)] call omtk_lm_teleport;}, [0, _side_color] ];
-				_spawn addAction["<t color='#0000FF'>side is ready</t>", {call omtk_lm_side_is_ready;}];
+				_base_spawn addAction["<t color='#0000FF'>Spawn in " + _spawn_name + "</t>", {[(_this select 3 select 0), (_this select 3 select 1)] call omtk_ds_teleport;}, [_idx, _side_color]]; 
+				_spawn addAction["<t color='#0000FF'>return to Base</t>", {[(_this select 3 select 0), (_this select 3 select 1)] call omtk_ds_teleport;}, [0, _side_color] ];
+				_spawn addAction["<t color='#0000FF'>side is ready</t>", {call omtk_ds_side_is_ready;}];
 			
 				_obIdx = 0;
 				{ 
-					_spawn addAction["<t color='#0000FF'>Load " + (_x select 0) + "</t>", { [(_this select 3 select 0),(_this select 3 select 1)] call omtk_lm_add_OBs;}, [_obIdx, _idx]];
+					_spawn addAction["<t color='#0000FF'>Load " + (_x select 0) + "</t>", { [(_this select 3 select 0),(_this select 3 select 1)] call omtk_ds_add_OBs;}, [_obIdx, _idx]];
 					_obIdx = _obIdx + 1;
 				} forEach _OBs;
 			} forEach _flags;
 		} else {
-			["Base spawn is not found", "CAMPAIGN", false] call omtk_log;
+			["Base spawn is not found", "INTERACTIVE", false] call omtk_log;
 		};
 	};
 	
