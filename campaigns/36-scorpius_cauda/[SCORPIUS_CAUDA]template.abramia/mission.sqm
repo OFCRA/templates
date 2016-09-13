@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=490;
+		nextID=493;
 	};
 	class MarkerIDProvider
 	{
-		nextID=46;
+		nextID=47;
 	};
 	class Camera
 	{
-		pos[]={3389.2615,12.367973,9381.959};
-		dir[]={-0.41926384,-0.17184147,-0.89158922};
-		up[]={-0.073178612,0.98502403,-0.15563166};
-		aside[]={-0.90513748,-9.8004239e-007,0.42562446};
+		pos[]={3854.5828,332.60056,7515.0029};
+		dir[]={0.59373713,-0.29833606,-0.74747145};
+		up[]={0.18563247,0.9543407,-0.23369108};
+		aside[]={-0.78318793,-2.7066562e-006,-0.62211937};
 	};
 };
 binarizationWanted=0;
@@ -447,7 +447,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=145;
+		items=147;
 		class Item0
 		{
 			dataType="Marker";
@@ -5553,9 +5553,8 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""MIKE""];(group this) setGroupId [""MIKE""];";
+						init="(group this) setGroupId [""MIKE""];";
 						description="Chef de Groupe MIKE";
-						isPlayer=1;
 						isPlayable=1;
 						class Inventory
 						{
@@ -5755,7 +5754,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""MIKE""];(group this) setGroupId [""MIKE""];";
+						init="(group this) setGroupId [""MIKE""];";
 						description="Chef d'Équipe MIKE";
 						isPlayable=1;
 						class Inventory
@@ -5904,7 +5903,7 @@ class Mission
 					class Attributes
 					{
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""MIKE""];(group this) setGroupId [""MIKE""];";
+						init="(group this) setGroupId [""MIKE""];";
 						description="Chef d'Équipe MIKE";
 						isPlayable=1;
 						class Inventory
@@ -6054,7 +6053,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""MIKE""];(group this) setGroupId [""MIKE""];";
+						init="(group this) setGroupId [""MIKE""];";
 						description="infirmier MIKE";
 						isPlayable=1;
 						class Inventory
@@ -6188,7 +6187,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""MIKE""];(group this) setGroupId [""MIKE""];";
+						init="(group this) setGroupId [""MIKE""];";
 						description="Fusilier-Automatique MIKE";
 						isPlayable=1;
 						class Inventory
@@ -6375,7 +6374,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""MIKE""];(group this) setGroupId [""MIKE""];";
+						init="(group this) setGroupId [""MIKE""];";
 						description="Fusilier MIKE";
 						isPlayable=1;
 						class Inventory
@@ -6547,7 +6546,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""MIKE""];(group this) setGroupId [""MIKE""];";
+						init="(group this) setGroupId [""MIKE""];";
 						description="Fusilier MIKE";
 						isPlayable=1;
 						class Inventory
@@ -6719,7 +6718,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""MIKE""];(group this) setGroupId [""MIKE""];";
+						init="(group this) setGroupId [""MIKE""];";
 						description="Fusilier MIKE";
 						isPlayable=1;
 						class Inventory
@@ -6927,7 +6926,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""KILO""];(group this) setGroupId [""KILO""];";
+						init="(group this) setGroupId [""KILO""];";
 						description="Chef de Groupe KILO";
 						isPlayable=1;
 						class Inventory
@@ -7068,7 +7067,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""KILO""];(group this) setGroupId [""KILO""];";
+						init="(group this) setGroupId [""KILO""];";
 						description="Chef d'Équipe KILO";
 						isPlayable=1;
 						class Inventory
@@ -7218,7 +7217,7 @@ class Mission
 					class Attributes
 					{
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""KILO""];(group this) setGroupId [""KILO""];";
+						init="(group this) setGroupId [""KILO""];";
 						description="Chef d'Équipe KILO";
 						isPlayable=1;
 						class Inventory
@@ -7368,7 +7367,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""KILO""];(group this) setGroupId [""KILO""];";
+						init="(group this) setGroupId [""KILO""];";
 						description="infirmier KILO";
 						isPlayable=1;
 						class Inventory
@@ -7503,7 +7502,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""KILO""];(group this) setGroupId [""KILO""];";
+						init="(group this) setGroupId [""KILO""];";
 						description="Fusilier KILO";
 						isPlayable=1;
 						class Inventory
@@ -7676,7 +7675,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""KILO""];(group this) setGroupId [""KILO""];";
+						init="(group this) setGroupId [""KILO""];";
 						description="Fusilier KILO";
 						isPlayable=1;
 						class Inventory
@@ -7849,7 +7848,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""KILO""];(group this) setGroupId [""KILO""];";
+						init="(group this) setGroupId [""KILO""];";
 						description="Fusilier KILO";
 						isPlayable=1;
 						class Inventory
@@ -8022,7 +8021,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""KILO""];(group this) setGroupId [""KILO""];";
+						init="(group this) setGroupId [""KILO""];";
 						description="Fusilier Anti-Tank KILO";
 						isPlayable=1;
 						class Inventory
@@ -8266,7 +8265,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""LIMA""];(group this) setGroupId [""LIMA""];";
+						init="(group this) setGroupId [""LIMA""];";
 						description="Chef de Groupe LIMA";
 						isPlayable=1;
 						class Inventory
@@ -8467,7 +8466,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""LIMA""];(group this) setGroupId [""LIMA""];";
+						init="(group this) setGroupId [""LIMA""];";
 						description="Chef d'Équipe LIMA";
 						isPlayable=1;
 						class Inventory
@@ -8617,7 +8616,7 @@ class Mission
 					class Attributes
 					{
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""LIMA""];(group this) setGroupId [""LIMA""];";
+						init="(group this) setGroupId [""LIMA""];";
 						description="Chef d'Équipe LIMA";
 						isPlayable=1;
 						class Inventory
@@ -8767,7 +8766,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""LIMA""];(group this) setGroupId [""LIMA""];";
+						init="(group this) setGroupId [""LIMA""];";
 						description="infirmier LIMA";
 						isPlayable=1;
 						class Inventory
@@ -8902,7 +8901,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""LIMA""];(group this) setGroupId [""LIMA""];";
+						init="(group this) setGroupId [""LIMA""];";
 						description="Fusilier LIMA";
 						isPlayable=1;
 						class Inventory
@@ -9075,7 +9074,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""LIMA""];(group this) setGroupId [""LIMA""];";
+						init="(group this) setGroupId [""LIMA""];";
 						description="Fusilier LIMA";
 						isPlayable=1;
 						class Inventory
@@ -9248,7 +9247,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""LIMA""];(group this) setGroupId [""LIMA""];";
+						init="(group this) setGroupId [""LIMA""];";
 						description="Fusilier LIMA";
 						isPlayable=1;
 						class Inventory
@@ -9421,7 +9420,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""LIMA""];(group this) setGroupId [""LIMA""];";
+						init="(group this) setGroupId [""LIMA""];";
 						description="Marksman LIMA";
 						isPlayable=1;
 						class Inventory
@@ -9667,7 +9666,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""HOTEL-1""];(group this) setGroupId [""HOTEL-1""];";
+						init="(group this) setGroupId [""HOTEL-1""];";
 						description="Chef de Groupe HOTEL-1";
 						isPlayable=1;
 						class Inventory
@@ -9849,7 +9848,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""HOTEL-1""];(group this) setGroupId [""HOTEL-1""];";
+						init="(group this) setGroupId [""HOTEL-1""];";
 						description="Chef d'Équipe HOTEL-1";
 						isPlayable=1;
 						class Inventory
@@ -10042,7 +10041,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""HOTEL-1""];(group this) setGroupId [""HOTEL-1""];";
+						init="(group this) setGroupId [""HOTEL-1""];";
 						description="Fusilier-Automatique HOTEL-1";
 						isPlayable=1;
 						class Inventory
@@ -10229,7 +10228,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""HOTEL-1""];(group this) setGroupId [""HOTEL-1""];";
+						init="(group this) setGroupId [""HOTEL-1""];";
 						description="Fusilier AT léger HOTEL-1";
 						isPlayable=1;
 						class Inventory
@@ -10444,7 +10443,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""HOTEL-2""];(group this) setGroupId [""HOTEL-2""];";
+						init="(group this) setGroupId [""HOTEL-2""];";
 						description="Chef de Groupe HOTEL-2";
 						isPlayable=1;
 						class Inventory
@@ -10627,7 +10626,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""HOTEL-2""];(group this) setGroupId [""HOTEL-2""];";
+						init="(group this) setGroupId [""HOTEL-2""];";
 						description="Chef d'Équipe HOTEL-2";
 						isPlayable=1;
 						class Inventory
@@ -10820,7 +10819,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""HOTEL-2""];(group this) setGroupId [""HOTEL-2""];";
+						init="(group this) setGroupId [""HOTEL-2""];";
 						description="Fusilier-Automatique HOTEL-2";
 						isPlayable=1;
 						class Inventory
@@ -11008,7 +11007,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""HOTEL-2""];(group this) setGroupId [""HOTEL-2""];";
+						init="(group this) setGroupId [""HOTEL-2""];";
 						description="Fusilier AT léger HOTEL-2";
 						isPlayable=1;
 						class Inventory
@@ -11224,7 +11223,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""INDIA""];(group this) setGroupId [""INDIA""];";
+						init="(group this) setGroupId [""INDIA""];";
 						description="Chef de Groupe INDIA";
 						isPlayable=1;
 						class Inventory
@@ -11363,7 +11362,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""INDIA""];(group this) setGroupId [""INDIA""];";
+						init="(group this) setGroupId [""INDIA""];";
 						description="Marksman INDIA";
 						isPlayable=1;
 						class Inventory
@@ -11515,7 +11514,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""INDIA""];(group this) setGroupId [""INDIA""];";
+						init="(group this) setGroupId [""INDIA""];";
 						description="Spotter INDIA";
 						isPlayable=1;
 						class Inventory
@@ -11650,7 +11649,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""INDIA""];(group this) setGroupId [""INDIA""];";
+						init="(group this) setGroupId [""INDIA""];";
 						description="Spotter INDIA";
 						isPlayable=1;
 						class Inventory
@@ -11879,7 +11878,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""QUEBEC""];(group this) setGroupId [""QUEBEC""];";
+						init="(group this) setGroupId [""QUEBEC""];";
 						description="Chef de Groupe QUEBEC";
 						isPlayable=1;
 						class Inventory
@@ -12019,7 +12018,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""QUEBEC""];(group this) setGroupId [""QUEBEC""];";
+						init="(group this) setGroupId [""QUEBEC""];";
 						description="Chef d'Équipe QUEBEC";
 						isPlayable=1;
 						class Inventory
@@ -12169,7 +12168,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""QUEBEC""];(group this) setGroupId [""QUEBEC""];";
+						init="(group this) setGroupId [""QUEBEC""];";
 						description="Fusilier AP léger QUEBEC";
 						isPlayable=1;
 						class Inventory
@@ -12348,7 +12347,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""QUEBEC""];(group this) setGroupId [""QUEBEC""];";
+						init="(group this) setGroupId [""QUEBEC""];";
 						description="Fusilier AP léger QUEBEC";
 						isPlayable=1;
 						class Inventory
@@ -12562,7 +12561,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""WHISKEY""];(group this) setGroupId [""WHISKEY""];";
+						init="(group this) setGroupId [""WHISKEY""];";
 						description="Chef de Groupe WHISKEY";
 						isPlayable=1;
 						class Inventory
@@ -12743,7 +12742,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""WHISKEY""];(group this) setGroupId [""WHISKEY""];";
+						init="(group this) setGroupId [""WHISKEY""];";
 						description="Mitrailleur WHISKEY";
 						isPlayable=1;
 						class Inventory
@@ -12910,7 +12909,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""WHISKEY""];(group this) setGroupId [""WHISKEY""];";
+						init="(group this) setGroupId [""WHISKEY""];";
 						description="Mitrailleur Assist. WHISKEY";
 						isPlayable=1;
 						class Inventory
@@ -13071,7 +13070,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""WHISKEY""];(group this) setGroupId [""WHISKEY""];";
+						init="(group this) setGroupId [""WHISKEY""];";
 						description="Mitrailleur WHISKEY";
 						isPlayable=1;
 						class Inventory
@@ -13295,7 +13294,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""SIERRA""];(group this) setGroupId [""SIERRA""];";
+						init="(group this) setGroupId [""SIERRA""];";
 						description="Chef de Groupe SIERRA";
 						isPlayable=1;
 						class Inventory
@@ -13434,7 +13433,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""SIERRA""];(group this) setGroupId [""SIERRA""];";
+						init="(group this) setGroupId [""SIERRA""];";
 						description="Fusilier Anti-Tank SIERRA";
 						isPlayable=1;
 						class Inventory
@@ -13578,7 +13577,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""SIERRA""];(group this) setGroupId [""SIERRA""];";
+						init="(group this) setGroupId [""SIERRA""];";
 						description="Fusilier AT Assist. SIERRA";
 						isPlayable=1;
 						class Inventory
@@ -13715,7 +13714,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""SIERRA""];(group this) setGroupId [""SIERRA""];";
+						init="(group this) setGroupId [""SIERRA""];";
 						description="Fusilier Anti-Tank SIERRA";
 						isPlayable=1;
 						class Inventory
@@ -13957,7 +13956,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""GOLF""];(group this) setGroupId [""GOLF""];";
+						init="(group this) setGroupId [""GOLF""];";
 						description="Chef de Groupe GOLF";
 						isPlayable=1;
 						class Inventory
@@ -14097,7 +14096,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""GOLF""];(group this) setGroupId [""GOLF""];";
+						init="(group this) setGroupId [""GOLF""];";
 						description="Chef d'Équipe GOLF";
 						isPlayable=1;
 						class Inventory
@@ -14308,7 +14307,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""GOLF""];(group this) setGroupId [""GOLF""];";
+						init="(group this) setGroupId [""GOLF""];";
 						description="Porteur tourelle (gun) GOLF";
 						isPlayable=1;
 						class Inventory
@@ -14485,7 +14484,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""GOLF""];(group this) setGroupId [""GOLF""];";
+						init="(group this) setGroupId [""GOLF""];";
 						description="Porteur tourelle (trépied) GOLF";
 						isPlayable=1;
 						class Inventory
@@ -14698,7 +14697,7 @@ class Mission
 					class Attributes
 					{
 						rank="COLONEL";
-						init="(group this) setGroupId [""YANKEE""];(group this) setGroupId [""YANKEE""];";
+						init="(group this) setGroupId [""YANKEE""];";
 						description="Chef de Camp YANKEE";
 						isPlayable=1;
 						class Inventory
@@ -14933,7 +14932,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""ALPHA""];(group this) setGroupId [""ALPHA""];";
+						init="(group this) setGroupId [""ALPHA""];";
 						description="Chef de Groupe ALPHA";
 						isPlayable=1;
 						class Inventory
@@ -15069,7 +15068,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""ALPHA""];(group this) setGroupId [""ALPHA""];";
+						init="(group this) setGroupId [""ALPHA""];";
 						description="Chef d'Équipe ALPHA";
 						isPlayable=1;
 						class Inventory
@@ -15204,7 +15203,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""ALPHA""];(group this) setGroupId [""ALPHA""];";
+						init="(group this) setGroupId [""ALPHA""];";
 						description="Chef d'Équipe ALPHA";
 						isPlayable=1;
 						class Inventory
@@ -15338,7 +15337,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""ALPHA""];(group this) setGroupId [""ALPHA""];";
+						init="(group this) setGroupId [""ALPHA""];";
 						description="infirmier ALPHA";
 						isPlayable=1;
 						class Inventory
@@ -15477,7 +15476,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""ALPHA""];(group this) setGroupId [""ALPHA""];";
+						init="(group this) setGroupId [""ALPHA""];";
 						description="Fusilier ALPHA";
 						isPlayable=1;
 						class Inventory
@@ -15587,7 +15586,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""ALPHA""];(group this) setGroupId [""ALPHA""];";
+						init="(group this) setGroupId [""ALPHA""];";
 						description="Fusilier ALPHA";
 						isPlayable=1;
 						class Inventory
@@ -15758,7 +15757,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""ALPHA""];(group this) setGroupId [""ALPHA""];";
+						init="(group this) setGroupId [""ALPHA""];";
 						description="Fusilier ALPHA";
 						isPlayable=1;
 						class Inventory
@@ -15929,7 +15928,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""ALPHA""];(group this) setGroupId [""ALPHA""];";
+						init="(group this) setGroupId [""ALPHA""];";
 						description="Fusilier-Automatique ALPHA";
 						isPlayable=1;
 						class Inventory
@@ -16140,7 +16139,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""BRAVO""];(group this) setGroupId [""BRAVO""];";
+						init="(group this) setGroupId [""BRAVO""];";
 						description="Chef de Groupe BRAVO";
 						isPlayable=1;
 						class Inventory
@@ -16276,7 +16275,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""BRAVO""];(group this) setGroupId [""BRAVO""];";
+						init="(group this) setGroupId [""BRAVO""];";
 						description="Chef d'Équipe BRAVO";
 						isPlayable=1;
 						class Inventory
@@ -16411,7 +16410,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""BRAVO""];(group this) setGroupId [""BRAVO""];";
+						init="(group this) setGroupId [""BRAVO""];";
 						description="Chef d'Équipe BRAVO";
 						isPlayable=1;
 						class Inventory
@@ -16546,7 +16545,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""BRAVO""];(group this) setGroupId [""BRAVO""];";
+						init="(group this) setGroupId [""BRAVO""];";
 						description="infirmier BRAVO";
 						isPlayable=1;
 						class Inventory
@@ -16686,7 +16685,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""BRAVO""];(group this) setGroupId [""BRAVO""];";
+						init="(group this) setGroupId [""BRAVO""];";
 						description="Fusilier BRAVO";
 						isPlayable=1;
 						class Inventory
@@ -16798,7 +16797,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""BRAVO""];(group this) setGroupId [""BRAVO""];";
+						init="(group this) setGroupId [""BRAVO""];";
 						description="Fusilier BRAVO";
 						isPlayable=1;
 						class Inventory
@@ -16971,7 +16970,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""BRAVO""];(group this) setGroupId [""BRAVO""];";
+						init="(group this) setGroupId [""BRAVO""];";
 						description="Fusilier BRAVO";
 						isPlayable=1;
 						class Inventory
@@ -17144,7 +17143,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""BRAVO""];(group this) setGroupId [""BRAVO""];";
+						init="(group this) setGroupId [""BRAVO""];";
 						description="Fusilier Anti-Tank BRAVO";
 						isPlayable=1;
 						class Inventory
@@ -17375,7 +17374,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""CHARLIE""];(group this) setGroupId [""CHARLIE""];";
+						init="(group this) setGroupId [""CHARLIE""];";
 						description="Chef de Groupe CHARLIE";
 						isPlayable=1;
 						class Inventory
@@ -17512,7 +17511,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""CHARLIE""];(group this) setGroupId [""CHARLIE""];";
+						init="(group this) setGroupId [""CHARLIE""];";
 						description="Chef d'Équipe CHARLIE";
 						isPlayable=1;
 						class Inventory
@@ -17648,7 +17647,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""CHARLIE""];(group this) setGroupId [""CHARLIE""];";
+						init="(group this) setGroupId [""CHARLIE""];";
 						description="Chef d'Équipe CHARLIE";
 						isPlayable=1;
 						class Inventory
@@ -17783,7 +17782,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""CHARLIE""];(group this) setGroupId [""CHARLIE""];";
+						init="(group this) setGroupId [""CHARLIE""];";
 						description="infirmier CHARLIE";
 						isPlayable=1;
 						class Inventory
@@ -17923,7 +17922,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""CHARLIE""];(group this) setGroupId [""CHARLIE""];";
+						init="(group this) setGroupId [""CHARLIE""];";
 						description="Fusilier CHARLIE";
 						isPlayable=1;
 						class Inventory
@@ -18035,7 +18034,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""CHARLIE""];(group this) setGroupId [""CHARLIE""];";
+						init="(group this) setGroupId [""CHARLIE""];";
 						description="Fusilier CHARLIE";
 						isPlayable=1;
 						class Inventory
@@ -18208,7 +18207,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""CHARLIE""];(group this) setGroupId [""CHARLIE""];";
+						init="(group this) setGroupId [""CHARLIE""];";
 						description="Fusilier CHARLIE";
 						isPlayable=1;
 						class Inventory
@@ -18381,7 +18380,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""CHARLIE""];(group this) setGroupId [""CHARLIE""];";
+						init="(group this) setGroupId [""CHARLIE""];";
 						description="Marksman CHARLIE";
 						isPlayable=1;
 						class Inventory
@@ -18629,7 +18628,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""JULIET-1""];(group this) setGroupId [""JULIET-1""];";
+						init="(group this) setGroupId [""JULIET-1""];";
 						description="Chef de Groupe JULIET-1";
 						isPlayable=1;
 						class Inventory
@@ -18765,7 +18764,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""JULIET-1""];(group this) setGroupId [""JULIET-1""];";
+						init="(group this) setGroupId [""JULIET-1""];";
 						description="Chef d'Équipe JULIET-1";
 						isPlayable=1;
 						class Inventory
@@ -18961,7 +18960,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""JULIET-1""];(group this) setGroupId [""JULIET-1""];";
+						init="(group this) setGroupId [""JULIET-1""];";
 						description="Fusilier-Automatique JULIET-1";
 						isPlayable=1;
 						class Inventory
@@ -19074,7 +19073,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""JULIET-1""];(group this) setGroupId [""JULIET-1""];";
+						init="(group this) setGroupId [""JULIET-1""];";
 						description="Fusilier AT léger JULIET-1";
 						isPlayable=1;
 						class Inventory
@@ -19227,7 +19226,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""JULIET-2""];(group this) setGroupId [""JULIET-2""];";
+						init="(group this) setGroupId [""JULIET-2""];";
 						description="Chef de Groupe JULIET-2";
 						isPlayable=1;
 						class Inventory
@@ -19365,7 +19364,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""JULIET-2""];(group this) setGroupId [""JULIET-2""];";
+						init="(group this) setGroupId [""JULIET-2""];";
 						description="Chef d'Équipe JULIET-2";
 						isPlayable=1;
 						class Inventory
@@ -19561,7 +19560,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""JULIET-2""];(group this) setGroupId [""JULIET-2""];";
+						init="(group this) setGroupId [""JULIET-2""];";
 						description="Fusilier-Automatique JULIET-2";
 						isPlayable=1;
 						class Inventory
@@ -19675,7 +19674,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""JULIET-2""];(group this) setGroupId [""JULIET-2""];";
+						init="(group this) setGroupId [""JULIET-2""];";
 						description="Fusilier AT léger JULIET-2";
 						isPlayable=1;
 						class Inventory
@@ -19830,7 +19829,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""ROMEO""];(group this) setGroupId [""ROMEO""];";
+						init="(group this) setGroupId [""ROMEO""];";
 						description="Chef de Groupe ROMEO";
 						isPlayable=1;
 						class Inventory
@@ -19965,7 +19964,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""ROMEO""];(group this) setGroupId [""ROMEO""];";
+						init="(group this) setGroupId [""ROMEO""];";
 						description="Marksman ROMEO";
 						isPlayable=1;
 						class Inventory
@@ -20174,7 +20173,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""ROMEO""];(group this) setGroupId [""ROMEO""];";
+						init="(group this) setGroupId [""ROMEO""];";
 						description="Spotter ROMEO";
 						isPlayable=1;
 						class Inventory
@@ -20385,7 +20384,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""ROMEO""];(group this) setGroupId [""ROMEO""];";
+						init="(group this) setGroupId [""ROMEO""];";
 						description="Spotter ROMEO";
 						isPlayable=1;
 						class Inventory
@@ -20633,7 +20632,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""OSCAR""];(group this) setGroupId [""OSCAR""];";
+						init="(group this) setGroupId [""OSCAR""];";
 						description="Chef de Groupe OSCAR";
 						isPlayable=1;
 						class Inventory
@@ -20829,7 +20828,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""OSCAR""];(group this) setGroupId [""OSCAR""];";
+						init="(group this) setGroupId [""OSCAR""];";
 						description="Spotter OSCAR";
 						isPlayable=1;
 						class Inventory
@@ -21021,7 +21020,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""OSCAR""];(group this) setGroupId [""OSCAR""];";
+						init="(group this) setGroupId [""OSCAR""];";
 						description="Sniper OSCAR";
 						isPlayable=1;
 						class Inventory
@@ -21210,7 +21209,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="(group this) setGroupId [""OSCAR""];(group this) setGroupId [""OSCAR""];";
+						init="(group this) setGroupId [""OSCAR""];";
 						description="Sniper OSCAR";
 						isPlayable=1;
 						class Inventory
@@ -21437,7 +21436,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""PAPA""];(group this) setGroupId [""PAPA""];";
+						init="(group this) setGroupId [""PAPA""];";
 						description="Chef de Groupe PAPA";
 						isPlayable=1;
 						class Inventory
@@ -21572,7 +21571,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""PAPA""];(group this) setGroupId [""PAPA""];";
+						init="(group this) setGroupId [""PAPA""];";
 						description="Mitrailleur Assist. PAPA";
 						isPlayable=1;
 						class Inventory
@@ -21691,7 +21690,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""PAPA""];(group this) setGroupId [""PAPA""];";
+						init="(group this) setGroupId [""PAPA""];";
 						description="Mitrailleur PAPA";
 						isPlayable=1;
 						class Inventory
@@ -21816,7 +21815,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""PAPA""];(group this) setGroupId [""PAPA""];";
+						init="(group this) setGroupId [""PAPA""];";
 						description="Mitrailleur PAPA";
 						isPlayable=1;
 						class Inventory
@@ -22039,7 +22038,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""TANGO""];(group this) setGroupId [""TANGO""];";
+						init="(group this) setGroupId [""TANGO""];";
 						description="Chef de Groupe TANGO";
 						isPlayable=1;
 						class Inventory
@@ -22174,7 +22173,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""TANGO""];(group this) setGroupId [""TANGO""];";
+						init="(group this) setGroupId [""TANGO""];";
 						description="Fusilier Anti-Tank TANGO";
 						isPlayable=1;
 						class Inventory
@@ -22306,7 +22305,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""TANGO""];(group this) setGroupId [""TANGO""];";
+						init="(group this) setGroupId [""TANGO""];";
 						description="Fusilier AT Assist. TANGO";
 						isPlayable=1;
 						class Inventory
@@ -22431,7 +22430,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""TANGO""];(group this) setGroupId [""TANGO""];";
+						init="(group this) setGroupId [""TANGO""];";
 						description="Fusilier Anti-Tank TANGO";
 						isPlayable=1;
 						class Inventory
@@ -22661,7 +22660,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="MAJOR";
-						init="(group this) setGroupId [""VICTOR""];(group this) setGroupId [""VICTOR""];";
+						init="(group this) setGroupId [""VICTOR""];";
 						description="Chef de Groupe VICTOR";
 						isPlayable=1;
 						class Inventory
@@ -22797,7 +22796,7 @@ class Mission
 					{
 						skill=0.2;
 						rank="CAPTAIN";
-						init="(group this) setGroupId [""VICTOR""];(group this) setGroupId [""VICTOR""];";
+						init="(group this) setGroupId [""VICTOR""];";
 						description="Chef d'Équipe VICTOR";
 						isPlayable=1;
 						class Inventory
@@ -22931,7 +22930,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""VICTOR""];(group this) setGroupId [""VICTOR""];";
+						init="(group this) setGroupId [""VICTOR""];";
 						description="Porteur tourelle (gun) VICTOR";
 						isPlayable=1;
 						class Inventory
@@ -23107,7 +23106,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="(group this) setGroupId [""VICTOR""];(group this) setGroupId [""VICTOR""];";
+						init="(group this) setGroupId [""VICTOR""];";
 						description="Porteur tourelle (trépied) VICTOR";
 						isPlayable=1;
 						class Inventory
@@ -24043,7 +24042,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+							value="[[[[], []], [[""rhs_mag_rgd5"", ""rhs_mag_rdg2_white""], [2, 2]], [[""ACE_fieldDressing"", ""ACE_epinephrine"", ""ACE_morphine"", ""NVGoggles_OPFOR""], [5, 1, 1, 8]], [[], []]], false]";
 						};
 					};
 				};
@@ -24230,6 +24229,254 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item145
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3382.1011,3.9167635,9358.6279};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="(group this) setGroupId [""ZULU""];";
+						description="Chef de Camp ZULU";
+						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="rhs_weap_ak74m";
+								optics="rhs_acc_1p29";
+								class primaryMuzzleMag
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									ammoLeft=30;
+								};
+							};
+							class secondaryWeapon
+							{
+							};
+							class handgun
+							{
+								name="rhs_weap_makarov_pm";
+								class primaryMuzzleMag
+								{
+									name="rhs_mag_9x18_8_57N181S";
+									ammoLeft=9;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="rhs_uniform_gorka_r_g";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="rhs_mag_rgd5";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="rhs_mag_rdg2_white";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="ACE_morphine";
+										count=2;
+									};
+									class Item1
+									{
+										name="ACE_fieldDressing";
+										count=6;
+									};
+									class Item2
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_microDAGR";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="rhsgref_6b23_khaki_officer";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="rhs_mag_rdg2_white";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="rhs_mag_9x18_8_57N181S";
+										count=2;
+										ammoLeft=9;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="tf_mr3000_multicam";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="rhs_30Rnd_545x39_7N10_AK";
+										count=8;
+										ammoLeft=30;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="tf_microdagr";
+							radio="ItemRadio";
+							headgear="rhs_beret_vdv2";
+						};
+					};
+					id=491;
+					type="O_officer_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=490;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="_this setGroupID [_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="ZULU";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item146
+		{
+			dataType="Marker";
+			position[]={3946.7988,9.6375899e+029,7424.5137};
+			name="marker_46";
+			markerType="ELLIPSE";
+			type="ellipse";
+			a=52;
+			b=52;
+			id=492;
+			atlOffset=9.6375899e+029;
 		};
 	};
 };
