@@ -5,6 +5,7 @@ onLoadIntro = "Prepare for the fight !";	// TO BE DEFINED
 loadScreen = "loadscreen.jpg";
 Debriefing = 0;
 respawnOnStart = -1;
+Saving = 0;
 
 respawn = "BASE";
 respawnDelay = 999999;
