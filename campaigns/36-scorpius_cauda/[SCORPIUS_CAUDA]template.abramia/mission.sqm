@@ -1071,7 +1071,7 @@ class Mission
 			};
 			id=77;
 			type="rhsusf_m113_usarmy";
-			atlOffset=-0.00054931641;
+			atlOffset=-0.00054168701;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1128,6 +1128,7 @@ class Mission
 			};
 			id=81;
 			type="rhsusf_m113_usarmy_MK19";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1534,7 +1535,7 @@ class Mission
 			};
 			id=96;
 			type="rhsusf_m113_usarmy";
-			atlOffset=-0.0015640259;
+			atlOffset=-0.0015611649;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1575,7 +1576,7 @@ class Mission
 			};
 			id=97;
 			type="rhsusf_m113_usarmy";
-			atlOffset=6.2942505e-005;
+			atlOffset=-0.00027179718;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1875,6 +1876,7 @@ class Mission
 			};
 			id=114;
 			type="rhsusf_m113_usarmy";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1915,6 +1917,7 @@ class Mission
 			};
 			id=115;
 			type="rhsusf_m113_usarmy";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
