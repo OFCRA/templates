@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1736.22,39.611923,1483.8381};
-		dir[]={0.30994281,-0.57724994,0.75561583};
-		up[]={0.21907109,0.81639332,0.53408796};
-		aside[]={0.92536181,-4.0613522e-006,-0.37956017};
+		pos[]={1601.7313,118.85786,1334.1954};
+		dir[]={0.70853049,-0.19732149,0.67770779};
+		up[]={0.1426996,0.98017627,0.1364971};
+		aside[]={0.691347,4.2318425e-007,-0.72277427};
 	};
 };
 binarizationWanted=0;
@@ -22115,6 +22115,7 @@ class Mission
 			};
 			id=559;
 			type="rhsusf_M1083A1P2_B_wd_fmtv_usarmy";
+			atlOffset=-0.0041885376;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22156,6 +22157,7 @@ class Mission
 			};
 			id=561;
 			type="rhsusf_M1083A1P2_B_wd_fmtv_usarmy";
+			atlOffset=-0.0039825439;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22197,6 +22199,7 @@ class Mission
 			};
 			id=562;
 			type="rhsusf_M1083A1P2_B_wd_fmtv_usarmy";
+			atlOffset=0.0039520264;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22300,6 +22303,7 @@ class Mission
 			};
 			id=571;
 			type="Barrel5";
+			atlOffset=-1.9073486e-005;
 		};
 		class Item151
 		{
@@ -22439,6 +22443,7 @@ class Mission
 			};
 			id=581;
 			type="rhsusf_m109_usarmy";
+			atlOffset=-2.8610229e-005;
 			class CustomAttributes
 			{
 				class Attribute0
