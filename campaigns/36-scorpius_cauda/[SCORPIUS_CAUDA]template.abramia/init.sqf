@@ -15,12 +15,13 @@ OMTK_TP_REDFOR_RESTRICTIONS = [
 execVM "customScripts.sqf";
 
 OMTK_SB_LISTE_OBJECTIFS = [
-	[5, "BLUEFOR+REDFOR", "DANS_ZONE", "#1608020 Capture du labo Fisher", "trg_1608020", ["DIFF", 1]],
-	[3, "BLUEFOR", "FLAG", "#1608021 depose de la charge", [1]],
-	[3, "REDFOR", "ACTION", "#1608022 contacter TAVNIKOV", "obj_1608022", 0, {[] call doGetInfo;}],
-	[2, "BLUEFOR", "DESTRUCTION", "Domination bonus", ["REDFOR",5] ],
-	[2, "REDFOR", "DESTRUCTION", "Domination bonus", ["BLUEFOR",5] ]
+	[5, "BLUEFOR+REDFOR", "DANS_ZONE", "#1608030 Capture de la base militaire", "trg_1608030", ["DIFF", 1]],
+	[3, "BLUEFOR", "ACTION", "#1608031 recuperer les donnees", "obj_1608031", 0, {[] call doGetDataBluefor;}],
+	[3, "REDFOR", "ACTION", "#1608032 recuperer les donnees", "obj_1608032", 0, {[] call doGetDataRedfor;}],
+	[2, "BLUEFOR", "DESTRUCTION", "Bonus supprematie", ["REDFOR",5] ],
+	[2, "REDFOR", "DESTRUCTION", "Bonus supprematie", ["BLUEFOR",5] ]
 ];
+
 
 OMTK_LM_BLUEFOR_OB = [
 ];
