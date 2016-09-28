@@ -104,7 +104,7 @@ op_radio:
   description: Opérateur Radio
 
 recon:
-  class: B_recon_F                  # NATO\Men (Recon)\Recon Scout
+  class: B_recon_M_F                # NATO\Men (Special Forces)\Recon Marksman
   description: Fusilier Reconnaissance
 
 turret_gun_carrier:
@@ -112,5 +112,5 @@ turret_gun_carrier:
   description: Porteur tourelle (gun)
 
 turret_tripod_carrier:
-  class: B_Recon_Sharpshooter_F           # NATO\Men (Special Forces)\Recon Sharpshooter
+  class: B_recon_F                  # NATO\Men (Special Forces)\Recon Scout
   description: Porteur tourelle (trépied)

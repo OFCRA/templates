@@ -104,7 +104,7 @@ op_radio:
   description: Opérateur Radio
 
 recon:
-  class: O_recon_F	                # CSAT\Men (Recon)\Recon Scout
+  class: O_recon_M_F	              # CSAT\Men (Special Forces)\Recon Marksman
   description: Fusilier Reconnaissance
 
 turret_gun_carrier:
@@ -112,5 +112,5 @@ turret_gun_carrier:
   description: Porteur tourelle (gun)
 
 turret_tripod_carrier:
-  class: O_Pathfinder_F             # CSAT\Men (Special Forces)\Recon Pathfinder
+  class: O_recon_F	                # CSAT\Men (Special Forces)\Recon Scout
   description: Porteur tourelle (trépied)

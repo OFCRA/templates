@@ -112,8 +112,6 @@ truck:
       - 2x rhs_weap_ak74m_plummag_folded
     ammo:
       - 6x rhs_30Rnd_545x39_AK
-      - DemoCharge_Remote_Mag
-      - SatchelCharge_Remote_Mag
     items:
       - 15x ACE_NVG_Gen4
       - 15x ACE_Chemlight_HiYellow
