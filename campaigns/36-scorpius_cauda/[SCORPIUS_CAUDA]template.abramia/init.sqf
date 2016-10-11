@@ -15,9 +15,9 @@ OMTK_TP_REDFOR_RESTRICTIONS = [
 execVM "customScripts.sqf";
 
 OMTK_SB_LISTE_OBJECTIFS = [
-	[5, "BLUEFOR+REDFOR", "DANS_ZONE", "#1608030 Capture de la base militaire", "trg_1608030", ["DIFF", 1]],
-	[3, "BLUEFOR", "ACTION", "#1608031 recuperer les donnees", "obj_1608031", 0, {[] call doGetDataBluefor;}],
-	[3, "REDFOR", "ACTION", "#1608032 recuperer les donnees", "obj_1608032", 0, {[] call doGetDataRedfor;}],
+	[5, "BLUEFOR+REDFOR", "DANS_ZONE", "#1608040 Capture du terminal de l'aeroport", "trg_1608040", ["DIFF", 1] ],
+	[3, "BLUEFOR", "SURVIE", "#1608041 proteger le General Thompson", ["LISTE", ["thompson"]] ],
+	[3, "REDFOR", "DESTRUCTION", "#1608042 demolir l'antenne", ["LISTE", [26669]] ],
 	[2, "BLUEFOR", "DESTRUCTION", "Bonus supprematie", ["REDFOR",5] ],
 	[2, "REDFOR", "DESTRUCTION", "Bonus supprematie", ["BLUEFOR",5] ]
 ];

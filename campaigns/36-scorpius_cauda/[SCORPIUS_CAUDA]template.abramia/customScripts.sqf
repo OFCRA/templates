@@ -2,18 +2,15 @@ doNothing = {
 	// ne fait rien
 };
 
-doGetDataBluefor = {
-	hint "Information récupérée";
-	_contact = missionNamespace getVariable ["obj_1608031", objNull];
-	if (!isNil("_contact")) then {
-		_contact enableAI "MOVE";
-	};
-};
-
-doGetDataRedfor = {
-		hint "Information récupérée";
-		_data = missionNamespace getVariable ["obj_1608032", objNull];
-		if (!isNil("_data")) then {
-			deleteVehicle _data;
+if (isServer) then {
+	doThompsonInvincible = {
+		_object = missionNamespace getVariable ["thompson", nil];
+		if (!isNil("_object")) then {
+			_object allowDamage false;
+			_object addVest "rhsusf_iotv_ucp";
+			_object addHeadgear "rhsusf_ach_helmet_ucp";
 		};
+	};
+
+	[doThompsonInvincible, [], 5400] call KK_fnc_setTimeout;
 };
