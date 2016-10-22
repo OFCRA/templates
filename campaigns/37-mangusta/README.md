@@ -61,7 +61,7 @@ Distances are big, and rifle squads will loose their means of transportation, so
 
 | @Modset | Missions File | Sources |
 |:-------:|:-------------:|:-------:|
-| *[OFCRA] Campagne Mangusta* | ![<img src="https://github.com/OFCRA/templates/blob/master/campaigns/37-mangusta/37-mangusta.IslaDuala3.pbo">](http://www.ofcrav2.org/images/Logos/pbo.png) | [<img src="http://www.ofcrav2.org/images/Logos/zip.png">](https://github.com/OFCRA/templates/archive/master.zip)
+| *[OFCRA] Campagne Mangusta* | [<img src="http://www.ofcrav2.org/images/Logos/pbo.png">](https://github.com/OFCRA/templates/raw/master/campaigns/37-mangusta/37-mangusta.IslaDuala3.pbo) | [<img src="http://www.ofcrav2.org/images/Logos/zip.png">](https://github.com/OFCRA/templates/archive/master.zip)
 
 # Game startup procedure
 
