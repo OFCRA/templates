@@ -1,0 +1,116 @@
+platoon_leader:
+  class: O_officer_F	              # CSAT\Men\Officer
+  description: Platoon Leader
+  rank: COLONEL
+
+squad_leader:
+  class: O_Soldier_SL_F	            # CSAT\Men\SquadLeader
+  description: Squad Leader
+  rank: MAJOR
+
+team_leader:
+  class: O_Soldier_TL_F 	          # CSAT\Men\Team Leader
+  description: Team Leader
+  rank: CAPTAIN
+
+medic:
+  class: O_medic_F	                # CSAT\Men\Combat Life Saver
+  description: Medic
+
+grenadier:
+  class: O_Soldier_GL_F	            # CSAT\Men\Grenadier
+  description: Grenadier
+
+assistant_grenadier:
+  class: O_Soldier_A_F	            # CSAT\Men\Ammo Bearer
+  description: Assist. Grenadier
+
+autorifleman:
+  class: O_Soldier_AR_F             # CSAT\Men\Asst. Autorifleman
+  description: Autorifleman
+
+assistant_autorifleman:
+  class: O_Soldier_AAR_F	    	    # CSAT\Men\Assit. Autorifleman
+  description: Assist. Autorifleman
+
+gunner:
+  class: O_support_GMG_F            # CSAT\Men\Gunner (GMG)
+  description: Gunner
+
+assistant_gunner:
+  class: O_support_AMG_F	          # CSAT\Men\Asst. Gunner (HMG/GMG)
+  description: Assist. Gunner
+
+anti_tank:
+  class: O_Soldier_AT_F	            # CSAT\Men\Missile Specialist (AT)
+  description: Anti-Tank Rifleman
+
+assistant_anti_tank:
+  class: O_Soldier_AAT_F            # CSAT\Men\Asst. Missile Specialist (AT)
+  description: Assist. AT Rifleman
+
+anti_tank_light:
+  class: O_Soldier_LAT_F	           # CSAT\Men\Rifleman (AT)
+  description: Light AT Rifleman
+
+anti_personnel_light:
+  class: O_Soldier_unarmed_F        # CSAT\Men\Rifleman (Unarmed)
+  description: Light AP Rifleman
+
+marksman:
+  class: O_soldier_M_F	            # CSAT\Men\Marksman
+  description: Marksman
+
+sniper:
+  class: O_sniper_F	                # CSAT\Men (Special Forces)\Sniper
+  description: Sniper
+
+spotter:
+  class: O_spotter_F                # CSAT\Men (Special Forces)\Spotter
+  description: Spotter
+
+explosive_specialist:
+  class: O_soldier_exp_F            # CSAT\Men\Explosive Specialist
+  description: Explosives Specialist
+
+rifleman:
+  class: O_Soldier_F	             # CSAT\Men\Rifleman
+  description: Rifleman
+
+ground_vehicle_commander:
+  class: O_diver_TL_F	             # CSAT\Men (Special Forces)\Diver Team Leader
+  description: Vehicle Commander
+  rank: MAJOR
+
+ground_crew:
+  class: O_crew_F	                  # CSAT\Men\Crewman
+  description: Ground Crew
+
+pilot:
+  class: O_helipilot_F	            # CSAT\Men\Helicopter Pilot
+  description: Heli Pilot
+  rank: MAJOR
+
+air_crew:
+  class: O_helicrew_F	              # CSAT\Men\Helicopter Crew
+  description: Heli Crew
+
+drone_operator:
+  class: O_soldier_UAV_F            # CSAT\Men\UAV Operator
+  description: Drone Operator
+
+radio_operator:
+  class: O_recon_JTAC_F	            # CSAT\Men (Special Forces)\Recon JTAC
+  description: Radio Operator
+
+recon:
+  class: O_recon_M_F	              # CSAT\Men (Special Forces)\Recon Marksman
+  description: Recon Rifleman
+
+turret_gun_carrier:
+  class: O_recon_LAT_F              # CSAT\Men (Special Forces)\Recon Scout (AT)
+  description: Gun Turret Carrier
+
+turret_tripod_carrier:
+  class: O_recon_F	                # CSAT\Men (Special Forces)\Recon Scout
+  description: Gun Tripod Carrier

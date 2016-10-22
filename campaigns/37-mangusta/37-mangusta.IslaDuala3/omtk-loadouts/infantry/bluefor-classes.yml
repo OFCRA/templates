@@ -1,0 +1,116 @@
+platoon_leader:
+  class: B_officer_F	              # NATO\Men\Officer
+  description: Platoon Leader
+  rank: COLONEL
+
+squad_leader:
+  class: B_Soldier_SL_F             # NATO\Men\Team Leader
+  description: Squad Leader
+  rank: MAJOR
+
+team_leader:
+  class: B_Soldier_TL_F	            # NATO\Men\Squad Leader
+  description: Team Leader
+  rank: CAPTAIN
+
+medic:
+  class: B_medic_F                  # NATO\Men\Combat Life Saver
+  description: Medic
+
+grenadier:
+  class: B_Soldier_GL_F             # NATO\Men\Grenadier
+  description: Grenadier
+
+assistant_grenadier:
+  class: B_Soldier_A_F	            # NATO\Men\Ammo Bearer
+  description: Assist. Grenadier
+
+autorifleman:
+  class: B_soldier_AR_F	            # NATO\Men\Autorifleman
+  description: Autorifleman
+
+assistant_autorifleman:
+  class: B_soldier_AAR_F	          # NATO\Men\Asst. Autorifleman
+  description: Assist. Autorifleman
+
+gunner:
+  class: B_support_GMG_F	          # NATO\Men\Gunner (GMG)
+  description: Gunner
+
+assistant_gunner:
+  class: B_support_AMG_F            # NATO\Men\Asst. Gunner (HMG/GMG)
+  description: Assist. Gunner
+
+anti_tank:
+  class: B_soldier_AT_F             # NATO\Men\Missile Specialist (AT)
+  description: Anti-Tank Rifleman
+
+assistant_anti_tank:
+  class: B_soldier_AAT_F            # NATO\Men\Asst. Missile Specialist (AT)
+  description: Assist. AT Rifleman
+
+anti_tank_light:
+  class: B_soldier_LAT_F            # NATO\Men\Rifleman (AT)
+  description: Light AT Rifleman
+
+anti_personnel_light:
+  class: B_soldier_unarmed_f        # NATO\Men\Rifleman (Unarmed)
+  description: Light AP Rifleman
+
+marksman:
+  class: B_soldier_M_F              # NATO\Men\Marksman
+  description: Marksman
+
+sniper:
+  class: B_sniper_F	                # NATO\Men (Special Forces)\Sniper
+  description: Sniper
+
+spotter:
+  class: B_spotter_F                # NATO\Men (Special Forces)\Spotter
+  description: Spotter
+
+explosive_specialist:
+  class: B_soldier_exp_F            # NATO\Men\Explosive Specialist
+  description: Explosives Specialist
+
+rifleman:
+  class: B_Soldier_F                # NATO\Men\Rifleman
+  description: Rifleman
+
+ground_vehicle_commander:
+  class: B_diver_TL_F               # NATO\Men (Special Forces)\Diver Team leader
+  description: Vehicle Commander
+  rank: MAJOR
+
+ground_crew:
+  class: B_crew_F                   # NATO\Men\Crewman
+  description: Ground Crew
+
+pilot:
+  class: B_Helipilot_F              # NATO\Men\Helicopter Pilot
+  description: Heli Pilot
+  rank: MAJOR
+
+air_crew:
+  class: B_helicrew_F               # NATO\Men\Helicopter Crew
+  description: Heli Crew
+
+drone_operator:
+  class: B_soldier_UAV_F            # NATO\Men\UAV Operator
+  description: Drone Operator
+
+radio_operator:
+  class: B_recon_JTAC_F             # NATO\Men (Special Forces)\Recon JTAC
+  description: Radio Operator
+
+recon:
+  class: B_recon_M_F                # NATO\Men (Special Forces)\Recon Marksman
+  description: Recon Rifleman
+
+turret_gun_carrier:
+  class: B_recon_LAT_F              # NATO\Men (Special Forces)\Recon Scout (AT)
+  description: Gun Turret Carrier
+
+turret_tripod_carrier:
+  class: B_recon_F                  # NATO\Men (Special Forces)\Recon Scout
+  description: Gun Tripod Carrier
