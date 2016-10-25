@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4549.9009,169.82851,7371.8057};
-		dir[]={-0.50720274,-0.047233012,-0.86066693};
-		up[]={-0.02405151,0.99883473,-0.040809579};
-		aside[]={-0.86164081,1.1290686e-006,0.50777352};
+		pos[]={1361.2821,33.393211,1272.3324};
+		dir[]={0.68199563,-0.35123292,0.64168048};
+		up[]={0.2558651,0.93619514,0.24073844};
+		aside[]={0.68534547,1.7584534e-007,-0.72840387};
 	};
 };
 binarizationWanted=0;
@@ -2160,7 +2160,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this setVariable['omtk_redfor_spawn',0];";
+				init="this setVariable['omtk_ignore',1];";
 			};
 			id=58;
 			type="rhs_uaz_open_MSV_01";
@@ -2219,7 +2219,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[], []], [[""rhs_mag_rgd5"", ""rhs_mag_rdg2_white""], [2, 2]], [[""ACE_fieldDressing"", ""ACE_epinephrine"", ""ACE_morphine"", ""ACE_NVG_Gen4"", ""ACE_Chemlight_HiYellow"", ""ACE_Chemlight_HiRed""], [5, 1, 1, 8, 8, 8]], [[], []]], false]";
+							value="[[[[],[]],[[""rhs_mag_rgd5"",""rhs_mag_rdg2_white"",""ACE_Chemlight_HiYellow"",""ACE_Chemlight_HiRed""],[2,2,8,8]],[[""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_NVG_Gen4""],[5,1,1,8]],[[],[]]],false]";
 						};
 					};
 				};
@@ -2951,7 +2951,6 @@ class Mission
 			};
 			id=78;
 			type="rhsusf_m113d_usarmy";
-			atlOffset=7.1525574e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2992,7 +2991,6 @@ class Mission
 			};
 			id=79;
 			type="rhsusf_m113d_usarmy";
-			atlOffset=7.1525574e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3145,7 +3143,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this setVariable['omtk_bluefor_spawn',0];";
+				init="this setVariable['omtk_ignore',1];";
 			};
 			id=84;
 			type="rhsusf_m998_d_4dr_halftop";
@@ -3204,7 +3202,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[], []], [[""rhs_mag_m67"", ""rhs_mag_an_m8hc""], [2, 2]], [[""ACE_fieldDressing"", ""ACE_epinephrine"", ""ACE_morphine"", ""ACE_NVG_Gen4"", ""ACE_Chemlight_HiYellow"", ""ACE_Chemlight_HiRed"", ""rhsusf_acc_anpeq15""], [5, 1, 1, 8, 8, 8, 8]], [[], []]], false]";
+							value="[[[[],[]],[[""rhs_mag_m67"",""rhs_mag_an_m8hc"",""ACE_Chemlight_HiYellow"",""ACE_Chemlight_HiRed""],[2,2,8,8]],[[""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_NVG_Gen4"",""rhsusf_acc_anpeq15""],[5,1,1,8,8]],[[],[]]],false]";
 						};
 					};
 				};
@@ -3460,7 +3458,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1441.8,2.8514388,1319.1803};
+						position[]={1441.8,2.8514388,1319.1801};
 					};
 					side="West";
 					flags=7;
@@ -3470,6 +3468,7 @@ class Mission
 						init="(group this) setGroupId [""YANKEE""];";
 						description="Platoon Leader YANKEE";
 						isPlayer=1;
+						isPlayable=1;
 						class Inventory
 						{
 							class primaryWeapon
@@ -21439,8 +21438,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4232.8506,9.0219355,8994.458};
-				angles[]={0,0.51532835,0};
+				position[]={4232.8511,9.0219421,8994.458};
+				angles[]={0,0.5153259,0};
 			};
 			side="Empty";
 			flags=4;
@@ -21450,6 +21449,7 @@ class Mission
 			};
 			id=380;
 			type="rhs_launcher_crate";
+			atlOffset=6.6757202e-006;
 			class CustomAttributes
 			{
 				class Attribute0

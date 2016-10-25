@@ -82,7 +82,7 @@ if (isServer) then {
 				[_omtk_sb_scores, false]  call BIS_fnc_arrayPush;
 			};
 			default	{
-				["camp inconnu pour la creation de l'objectif","ERROR",true] call omtk_log;
+				["unknown side for objective creation","ERROR",true] call omtk_log;
 			};
 		};
 		

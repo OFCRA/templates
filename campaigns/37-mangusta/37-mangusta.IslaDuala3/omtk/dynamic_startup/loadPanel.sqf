@@ -1,7 +1,3 @@
-omtk_sb_scores = missionNamespace getVariable "omtk_sb_scores";
-omtk_sb_objectives = missionNamespace getVariable "omtk_sb_objectives";
-
-
 omtk_ds_get_OB_limit = {
 	_OBs = missionNamespace getVariable ["OMTK_LM_" + toUpper([side player] call omtk_get_side) + "_OB", []];
 	_limit = _OBs select 0 select 1;
@@ -79,17 +75,6 @@ omtk_ds_unselect_vehicles = {
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
 omtk_ds_get_vehicles = {
 	_OBs = missionNamespace getVariable ["OMTK_LM_" + toUpper([_this select 0] call omtk_get_side) + "_OB", []];
 	_OBs;
@@ -98,20 +83,52 @@ omtk_ds_get_vehicles = {
 
 omtk_ds_remove_unused_vehicles = {
 	_side_color = [_this select 0] call omtk_get_side;
-	{	
-		_flags_number = [_this select 0] call omtk_ds_get_spawn_flags;
-		for "_i" from 1 to (count _flags_number) do {
-			if (_i != OMTK_DS_CHOSEN_SPAWN_FOR_PLAYER) then {
-				_spawn_id = _side_color + "_spawn_" + str(_i);
-				_is_on_another_spawn = _x getVariable [_spawn_id, 0];
-				if (_is_on_another_spawn > 0) then {
-					if (!isNil("_x")) then {
+	_filter = _this select 1;
+	
+	_inventory_class = [];
+	_inventory_quantity = [];
+	for "_i" from 0 to (lbSize 1502) do {
+		_data = lbData [1502, _i];
+		_OBs = call omtk_ds_get_vehicles;
+		_OB_index = parseNumber _data;
+		
+		{
+			_class = _x;
+			_index = _inventory_class find _class;
+			if (_index < 0) then {
+				_inventory_class pushBack _class;
+				_inventory_quantity pushBack 1;
+			} else {
+				_new_qty = (_inventory_quantity select _index) + 1;
+				_inventory_quantity set [_index, _new_qty];
+			};
+		} forEach ((_OBs select _OB_index) select 2);
+	};
+	
+	{
+		_ignored = _x getVariable ["omtk_ignore", -1];
+		_spawn_id = _x getVariable ["omtk_" + _side_color + "_spawn", -1];
+
+		if (!isNil("_x") && (_ignored < 0) && (_spawn_id > -1)) then {
+			if (_filter != _spawn_id) then {
+				deleteVehicle _x;
+			} else {
+				_class = typeOf _x;
+				_index = _inventory_class find _class;
+				if (_index >= 0) then {
+					_quantity = _inventory_quantity select _index;
+					if (_quantity > 0) then {
+						_inventory_quantity set [_index, _quantity - 1];
+					} else {
 						deleteVehicle _x;
 					};
+				} else {
+					deleteVehicle _x;
 				};
 			};
 		};
-	} foreach vehicles;
+		
+	} forEach vehicles;
 };
 
 
@@ -154,10 +171,6 @@ omtk_ds_get_spawn_flags = {
 
 omtk_ds_remove_spawn_flags = {
 	{	deleteVehicle _x;	} forEach ([_this select 0] call omtk_ds_get_spawn_flags);
-	_flag = missionNamespace getVariable [toUpper([_this select 0] call omtk_get_side) + '_spawn_0', nil];
-	if (!isNil("_flag")) then {
-		deleteVehicle _flag;
-	};
 };
 
 
@@ -187,28 +200,40 @@ omtk_ds_side_is_ready = {
 	};
 };
 
+omtk_ds_end_process = {
+	[side player, (_this select 0)] call omtk_ds_remove_unused_vehicles;
+	call omtk_ds_side_is_ready;
+	closeDialog 0;	
+};
+
 omtk_ds_process = {
 	_already_processed = missionNamespace getVariable ["omtk_ds_interactive_process", false];
 	if (!_already_processed) then {
 		
 		missionNamespace setVariable ["omtk_ds_interactive_process", true];
 		publicVariable "omtk_ds_interactive_process";
+		
+		_side_color = [side player] call omtk_get_side;
+		_selected_spawn = _side_color + "_spawn_0";
+		
 		_index = lbCurSel 1500;
 		_nb_items = lbSize 1500;
-		if (_index > -1 && _nb_items > 0) then {  // need to teleport
-			_side_color = [side player] call omtk_get_side;
-			_selected_spawn = _side_color + "_spawn_" + str(lbCurSel 1500 + 1);
-			
-			[side player, _selected_spawn] call omtk_ds_teleport;
-			[side player] call omtk_ds_remove_spawn_flags;
-			[side player] call omtk_ds_remove_unused_vehicles;
-			
-			call omtk_ds_side_is_ready;
-			closeDialog 0;
-		} else {
+		if (_nb_items > 0) then {
+			if (_index < 0) then {
 				for "_i" from 0 to (lbSize 1500) do { lbSetColor [1500, _i, [1, 0, 0, 1]] };
+			} else {
+				_selected_spawn = _side_color + "_spawn_" + str(_index + 1);
+				[side player, _selected_spawn] call omtk_ds_teleport;
+				[side player] call omtk_ds_remove_spawn_flags;
+				[_index + 1] call omtk_ds_end_process;
+			};
+		} else {
+			[0] call omtk_ds_end_process;
 		};
+				
 	} else {
-		
+			["Interactive startup already processed", "INTERACTIVE", true] call omtk_log;
+			closeDialog 0;
 	};
+	
 };

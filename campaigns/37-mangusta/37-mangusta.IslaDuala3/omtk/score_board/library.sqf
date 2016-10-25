@@ -6,7 +6,7 @@ omtk_sb_mission_end = {
 };
 
 omtk_sb_start_mission_end = {
-  remoteExecCall ["omtk_sb_mission_end"]; 
+  remoteExecCall ["omtk_sb_mission_end",-2,true]; 
 };
 
 
@@ -20,7 +20,7 @@ omtk_sb_computing_display = {
 };
 
 omtk_sb_compute_scoreboard = {
-	remoteExecCall ["omtk_sb_computing_display"];
+	remoteExecCall ["omtk_sb_computing_display",-2,true];
 	omtk_sb_bluefor_survivors = [];
 	omtk_sb_redfor_survivors = [];
 	
@@ -105,7 +105,7 @@ omtk_sb_getObjectiveResult = {
 			_res = (_omtk_sb_scores select _index);
 			//["objectif BLUEFOR","INFO",false] call omtk_log;
 		};
-		case "ACTION_DISPUTEE":	{
+		case "TRIGGER":	{
 			//["objectif BLUEFOR","INFO",false] call omtk_log;
 		};
 		case "FLAG":	{
@@ -120,7 +120,7 @@ omtk_sb_getObjectiveResult = {
 		};
 		
 		default	{
-			["type d'objectif inconnu","ERROR",true] call omtk_log;
+			["unkown objective type","ERROR",true] call omtk_log;
 		};
 	};
 	
@@ -300,7 +300,7 @@ omtk_isAlive = {
 		
 		default	{
 			_res = false;
-			["Sujet de l'objectif inconnu: %1", _subject] call BIS_fnc_error;		
+			["Objective target is not found: %1", _subject] call BIS_fnc_error;		
 		};		
 	};
 	_res;
