@@ -84,27 +84,41 @@ All IA will be disabled (*if you loose connection, you will find your unit at th
 
 ## 2. Vehicles choice
 
-The mission will be launched at **21h15**, you spawn at your unique spawn, players can still connect, but Platoon Sergeant and all of the Squad Leaders (convenient if Platoon Sergeant is late or faces troubles when connecting) have a windows immediately after their spawning:
+The mission will be launched at **21h15**, you spawn at your unique spawn, players can still connect, but Platoon Sergeant and all of the Squad Leaders (convenient if Platoon Sergeant is late or faces troubles when connecting) have an extra ACE menu item to open the interactive panel.
 
-![img](http://www.ofcrav2.org/images/tuto/interactive_menu.png)
+![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/startup_process_01.png)
+
+Both sides have to select their vehicles.
+
+![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/startup_process_02.png)
 
 Since there is only one spawn for each side in the mission, there is no spawn to choose.
 Below, you need to select you vehicles: be smart and respect the vehicles combination that you decided, I mean, there is a maximum of 4 vehicles (1 per group minus the M-1097 half of the Platoon Commander that should NOT BE SELECTED on that panel, since it will be always available without any action) and there is a maximum number for each vehicle class. But you still can add 2x Blackhawks + 2x M-113, which should not be possible in the campaign rules.
 
-Once your vehicles selected (= are in the list on the right side), click *Execute*,  and this will delete all the vehicles at your spawn BUT the one that you selected. Only one guy must click on Execute (normally the Platoon Sergeant), so for the 4 Squad Leaders, just click on [i]Cancel[/i], and let the unique guy in charge of the vehicles selection launch the process once.
+Once your vehicles selected (= are in the list on the right side), click *Execute*,  and this will delete all the vehicles at your spawn BUT the one that you selected. Only one guy must click on Execute (normally the Platoon Sergeant), so for the 4 Squad Leaders, please don't use the interactive panel if there is someone already doing it, and let the unique guy in charge of the vehicles selection launch the process once.
 
 If you did a mistake (wrong vehicles + click on *Execute* button), then we immediately re-launch the mission.
 
 ## 3. Warm-up
 
+Once a side has finished with interactive panel, a message will be displayed to warn everybody that the side is ready to start the warm-up. Please do it very fast.
+
+![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/startup_process_03.png)
+
 Once both sides are ready, the unselected vehicles are deleted from spawn for both sides, and the warm-up starts:
+
+![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/startup_process_04.png)
+
+Platoon and Squads leaders have the ability to stop the warm-up and start the mission immediately.
 
 * duration: 15 min.
 * zone restriction: 400 m.
 
 Players can continue to join the game.
 Units can move in a large area to let them join their vehicle. All vehicles are closed (inventory can be accessed only).
-At then end of the warm-up, all vehicles are unlocked and the mission starts.
+At then end of the warm-up, all vehicles are unlocked and the mission starts. The ACE menu is now vanilla.
+
+![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/startup_process_05.png)
 
 To help you to find your vehicle, here after are the bases for both sides:
 
@@ -118,7 +132,7 @@ To help you to find your vehicle, here after are the bases for both sides:
 
 | ![USA](http://www.ofcrav2.org/images/publiques/flag_usa.jpg) | ![Russia](http://www.ofcrav2.org/images/publiques/flag_russia.jpg) |
 |:-------------------------------------------------------------|:-------------------------------------------------------------------|
-| **HELICO: UH-60M - 10 pax** <br>![uh-60](http://www.ofcrav2.org/images/publiques/icons/uh-60.png)<br>Restrictions: /mission: **x2**  - /campaign: **x4**<br>Slots: infantry: **x8**  - Aircrew: **x2**<br>Note: *fuel is provided +10 min. after mission start* | **HELICO: Mi-8MT - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/mi-8mt.png)<br>Restrictions: /mission: **x2**  - : /campaign: **x4**<br>Slots: infantry: **x7**  - Aircrew: **x2**<br>Note: *fuel is provided +10 min. after mission start* |
+| **HELICO: UH-60M - 10 pax** <br>![uh-60](http://www.ofcrav2.org/images/publiques/icons/uh-60.png)<br>Restrictions: /mission: **x2**  - /campaign: **x4**<br>Slots: infantry: **x8**  - Aircrew: **x2**<br>Note: *locked for the 10 first min.* | **HELICO: Mi-8MT - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/mi-8mt.png)<br>Restrictions: /mission: **x2**  - : /campaign: **x4**<br>Slots: infantry: **x7**  - Aircrew: **x2**<br>Note: *locked for the 10 first min.* |
 | **IFV: M2A3 - 8 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m2a3.png)<br>Restrictions: /mission: **x2**  - /campaign: **x5**<br>Slots: infantry: **x6**  - Ground Crew: **x2**<br> | **IFV: BMP-3 (late) - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/bmp-3.png)<br>Restrictions: /mission: **x2**  - /campaign: **x5**<br>Slots: infantry: **x7**  - Ground Crew: **x2**|
 | **APC: M-113 (M2) - 10 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m113.png)<br>Restrictions: /mission: **x2**  - /campaign: **x8**<br>Slots: infantry: **x8**  - Ground Crew: **x2**<br> | **APC: BTR-80 - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/btr-80.png)<br>Restrictions: /mission: **x2**  - /campaign: **x8**<br>Slots: infantry: **x7**  - Ground Crew: **x2** | 
 | **APC: M-117 - 7 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m117.png)<br>Restrictions: /mission: **x3**  - /campaign: **x8**<br>Slots: infantry: **x5**  - Ground Crew: **x2**<br> | **APC: BRDM-2 - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/brdm-2.png)<br>Restrictions: /mission: **x3**  - /campaign: **x8**<br>Slots: infantry: **x7**  - Ground Crew: **x2** |
