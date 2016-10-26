@@ -50,6 +50,30 @@ if (isServer) then {
 	[omtk_sb_compute_scoreboard, [], _omtk_mission_duration] call KK_fnc_setTimeout;
 	[omtk_sb_start_mission_end, [], _omtk_mission_duration+2] call KK_fnc_setTimeout;
 
+	omtk_hide_Billy = {
+		_Billy = missionNamespace getVariable ["Billy", objNull];
+		if (!isnil("_Billy")) then {
+			_Billy allowDamage false;
+			_Billy setPos ([8067, 558, 0]);
+		};
+	};
+		
+	omtk_unlock_helis = {
+		{
+			_heli = missionNamespace getVariable [_x, objNull];
+			if (!isnil("_heli")) then { _heli lock 0; };
+		} forEach ["blackhawk01","blackhawk02","mi801","mi802"];
+	};
+		
+	_Billy = missionNamespace getVariable ["Billy", objNull];
+	_position = selectRandom [
+		[794.296, 5054.871, 4.360],
+		[1309.058, 4371.545, 0]
+	];
+			
+	_Billy setPos (_position);
+	[omtk_hide_Billy, [], 5400] call KK_fnc_setTimeout; // protect Billy 1h30 later
+	[omtk_unlock_helis, [], 600] call KK_fnc_setTimeout; // unlock helis 10 min. later
 	
 	// OBJ
 	_omtk_sb_objectives = [];

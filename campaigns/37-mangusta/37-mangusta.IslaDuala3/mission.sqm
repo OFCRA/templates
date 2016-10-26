@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1361.2821,33.393211,1272.3324};
-		dir[]={0.68199563,-0.35123292,0.64168048};
-		up[]={0.2558651,0.93619514,0.24073844};
-		aside[]={0.68534547,1.7584534e-007,-0.72840387};
+		pos[]={1588.9243,236.35884,1829.7902};
+		dir[]={0.38774464,-0.28623471,0.87633872};
+		up[]={0.11585857,0.95806974,0.26184791};
+		aside[]={0.91461957,8.775678e-007,-0.40468031};
 	};
 };
 binarizationWanted=0;
@@ -424,7 +424,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				lock="LOCKED";
 				init="this setVariable['omtk_redfor_spawn',0];";
+				name="mi802";
 			};
 			id=35;
 			type="RHS_Mi8mt_Cargo_vv";
@@ -464,7 +466,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""rhs_weap_ak74m_plummag_folded""], [4]], [[""rhs_mag_rgd5"", ""rhs_mag_rdg2_white"", ""rhs_30Rnd_545x39_AK""], [2, 2, 12]], [[""ACE_fieldDressing"", ""ACE_epinephrine"", ""ACE_morphine"", ""ACE_NVG_Gen4"", ""ACE_Chemlight_HiYellow"", ""ACE_Chemlight_HiRed""], [5, 1, 1, 15, 15, 15]], [[], []]], false]";
+							value="[[[[""rhs_weap_ak74m_plummag_folded""],[4]],[[""rhs_mag_rgd5"",""rhs_mag_rdg2_white"",""rhs_30Rnd_545x39_AK"",""ACE_Chemlight_HiYellow"",""ACE_Chemlight_HiRed""],[2,2,12,15,15]],[[""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_NVG_Gen4""],[5,1,1,15]],[[],[]]],false]";
 						};
 					};
 				};
@@ -502,7 +504,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				lock="LOCKED";
 				init="this setVariable['omtk_redfor_spawn',0];";
+				name="mi801";
 			};
 			id=39;
 			type="RHS_Mi8mt_vv";
@@ -542,7 +546,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""rhs_weap_ak74m_plummag_folded""], [4]], [[""rhs_mag_rgd5"", ""rhs_mag_rdg2_white"", ""rhs_30Rnd_545x39_AK""], [2, 2, 12]], [[""ACE_fieldDressing"", ""ACE_epinephrine"", ""ACE_morphine"", ""ACE_NVG_Gen4"", ""ACE_Chemlight_HiYellow"", ""ACE_Chemlight_HiRed""], [5, 1, 1, 15, 15, 15]], [[], []]], false]";
+							value="[[[[""rhs_weap_ak74m_plummag_folded""],[4]],[[""rhs_mag_rgd5"",""rhs_mag_rdg2_white"",""rhs_30Rnd_545x39_AK"",""ACE_Chemlight_HiYellow"",""ACE_Chemlight_HiRed""],[2,2,12,15,15]],[[""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_NVG_Gen4""],[5,1,1,15]],[[],[]]],false]";
 						};
 					};
 				};
@@ -2506,7 +2510,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				lock="LOCKED";
 				init="this setVariable['omtk_bluefor_spawn',0];";
+				name="blackhawk02";
 			};
 			id=68;
 			type="RHS_UH60M_d";
@@ -2527,7 +2533,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""rhs_weap_m4""], [4]], [[""rhs_mag_m67"", ""rhs_mag_an_m8hc"", ""rhs_mag_30Rnd_556x45_M855A1_Stanag""], [3, 3, 12]], [[""ACE_fieldDressing"", ""ACE_epinephrine"", ""ACE_morphine"", ""ACE_NVG_Gen4"", ""rhsusf_acc_anpeq15"", ""ACE_Chemlight_HiYellow"", ""ACE_Chemlight_HiRed""], [5, 1, 1, 15, 15, 15, 15]], [[], []]], false]";
+							value="[[[[""rhs_weap_m4""],[4]],[[""rhs_mag_m67"",""rhs_mag_an_m8hc"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ACE_Chemlight_HiYellow"",""ACE_Chemlight_HiRed""],[3,3,12,15,15]],[[""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_NVG_Gen4"",""rhsusf_acc_anpeq15""],[5,1,1,15,15]],[[],[]]],false]";
 						};
 					};
 				};
@@ -2565,7 +2571,9 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				lock="LOCKED";
 				init="this setVariable['omtk_bluefor_spawn',0];";
+				name="blackhawk01";
 			};
 			id=69;
 			type="RHS_UH60M_d";
@@ -2586,7 +2594,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""rhs_weap_m4""], [4]], [[""rhs_mag_m67"", ""rhs_mag_an_m8hc"", ""rhs_mag_30Rnd_556x45_M855A1_Stanag""], [3, 3, 12]], [[""ACE_fieldDressing"", ""ACE_epinephrine"", ""ACE_morphine"", ""ACE_NVG_Gen4"", ""rhsusf_acc_anpeq15"", ""ACE_Chemlight_HiYellow"", ""ACE_Chemlight_HiRed""], [5, 1, 1, 15, 15, 15, 15]], [[], []]], false]";
+							value="[[[[""rhs_weap_m4""],[4]],[[""rhs_mag_m67"",""rhs_mag_an_m8hc"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ACE_Chemlight_HiYellow"",""ACE_Chemlight_HiRed""],[3,3,12,15,15]],[[""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_NVG_Gen4"",""rhsusf_acc_anpeq15""],[5,1,1,15,15]],[[],[]]],false]";
 						};
 					};
 				};
@@ -2951,6 +2959,7 @@ class Mission
 			};
 			id=78;
 			type="rhsusf_m113d_usarmy";
+			atlOffset=7.1525574e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2991,6 +3000,7 @@ class Mission
 			};
 			id=79;
 			type="rhsusf_m113d_usarmy";
+			atlOffset=7.1525574e-006;
 			class CustomAttributes
 			{
 				class Attribute0

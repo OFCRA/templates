@@ -168,6 +168,12 @@ omtk_ds_get_spawn_flags = {
 	_results;
 };
 
+omtk_ds_remove_ace_menu = {
+	_class = typeOf player;
+	if (call omtk_is_using_ACEmod && _class in OMTK_DS_CHIEF_CLASSES) then {
+		[player, 1, ["ACE_SelfActions", "OMTK_INTERACTIVE_MENU"]] call ace_interact_menu_fnc_removeActionFromObject;
+	};
+};
 
 omtk_ds_remove_spawn_flags = {
 	{	deleteVehicle _x;	} forEach ([_this select 0] call omtk_ds_get_spawn_flags);
@@ -203,15 +209,17 @@ omtk_ds_side_is_ready = {
 omtk_ds_end_process = {
 	[side player, (_this select 0)] call omtk_ds_remove_unused_vehicles;
 	call omtk_ds_side_is_ready;
+	remoteExec["omtk_ds_remove_ace_menu", (side player), true];
 	closeDialog 0;	
 };
 
 omtk_ds_process = {
-	_already_processed = missionNamespace getVariable ["omtk_ds_interactive_process", false];
+	_side_color = [side player] call omtk_get_side;
+	_already_processed = missionNamespace getVariable ["omtk_ds_" + _side_color + "_interactive_process", false];
 	if (!_already_processed) then {
 		
-		missionNamespace setVariable ["omtk_ds_interactive_process", true];
-		publicVariable "omtk_ds_interactive_process";
+		missionNamespace setVariable ["omtk_ds_" + _side_color + "_interactive_process", true];
+		publicVariable "omtk_ds_" + _side_color + "_interactive_process";
 		
 		_side_color = [side player] call omtk_get_side;
 		_selected_spawn = _side_color + "_spawn_0";

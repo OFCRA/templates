@@ -49,22 +49,3 @@ if (hasInterface) then {
 */
 
 };
-
-omtk_hide_Billy = {
-	_Billy = missionNamespace getVariable ["Billy", objNull];
-	if (!isnil("_Billy")) then {
-		_Billy allowDamage false;
-		_Billy setPos ([8067, 558, 0]);
-	};
-};
-
-if (isServer) then {
-	_Billy = missionNamespace getVariable ["Billy", objNull];
-	_position = selectRandom [
-		[794.296, 5054.871, 4.360],
-		[1309.058, 4371.545, 0]
-	];
-		
-	_Billy setPos (_position);
-	[omtk_hide_Billy, [], 40] call KK_fnc_setTimeout; // protect Billy 1h30 later
-};
