@@ -6,7 +6,7 @@ omtk_sb_mission_end = {
 };
 
 omtk_sb_start_mission_end = {
-  remoteExecCall ["omtk_sb_mission_end",-2,true]; 
+  remoteExec ["omtk_sb_mission_end"]; 
 };
 
 
@@ -20,7 +20,7 @@ omtk_sb_computing_display = {
 };
 
 omtk_sb_compute_scoreboard = {
-	remoteExecCall ["omtk_sb_computing_display",-2,true];
+	remoteExec ["omtk_sb_computing_display"];
 	omtk_sb_bluefor_survivors = [];
 	omtk_sb_redfor_survivors = [];
 	

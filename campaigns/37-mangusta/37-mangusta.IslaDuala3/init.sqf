@@ -15,9 +15,10 @@ OMTK_TP_REDFOR_RESTRICTIONS = [
 execVM "customScripts.sqf";
 
 OMTK_SB_LIST_OBJECTIFS = [
-  [5, "BLUEFOR", "SURVIVAL", "Protect Billy DITOUGADI", ["LIST", ["Billy"]] ],
-  [5, "REDFOR", "DESTRUCTION", "Kill Billy DITOUGADI", ["LIST", ["Billy"]] ],
-  [3, "BLUEFOR+REDFOR", "INSIDE", "Capture Vestinga", "vestinga_area", ["DIFF", 1] ],
+  [5, "BLUEFOR", "DESTRUCTION", "Destroy PRV-13 radar", ["LIST", ["radar"]] ],
+  [5, "REDFOR", "SURVIVAL", "Secure PRV-13 Radar", ["LIST", ["radar"]] ],
+  [2, "BLUEFOR+REDFOR", "INSIDE", "Capture Obmeya FOB", "fob_area", ["DIFF", 1] ],
+  [1, "BLUEFOR+REDFOR", "INSIDE", "Capture explosives depot", "explosives_area", ["DIFF", 1] ],
   [2, "BLUEFOR", "DESTRUCTION", "Supremacy Bonus", ["REDFOR", 5] ],
   [2, "REDFOR", "DESTRUCTION", "Supremacy Bonus", ["BLUEFOR", 5] ]
 ];
