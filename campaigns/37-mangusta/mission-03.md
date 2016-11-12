@@ -31,7 +31,7 @@ Forecast: stable rainny night
 
 ## Common Objectives
 
-**Steal the laptop (5 pts)**  
+**Steal the intel (5 pts)**  
 
 ![](http://www.ofcrav2.org/images/Campagne/37-mangusta/arma3%202016-11-12%2000-35-39-57.png)
 
