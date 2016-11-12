@@ -22,8 +22,8 @@ The tape is an audio record about a secret meeting of Russian Commanders which h
 
 # Tactical Map
 
-![](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map2_s.jpg)  
-[click to enlarge](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map2.jpg)
+![](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map_s.jpg)  
+[click to enlarge](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map.jpg)
 
 *Legend*
 
