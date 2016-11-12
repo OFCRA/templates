@@ -119,6 +119,7 @@ omtk_ds_remove_unused_vehicles = {
 					_quantity = _inventory_quantity select _index;
 					if (_quantity > 0) then {
 						_inventory_quantity set [_index, _quantity - 1];
+						["Vehicle for " + _side_color + ": " + _class, "INTERACTIVE", false] remoteExec ["omtk_log"]; 
 					} else {
 						deleteVehicle _x;
 					};

@@ -47,7 +47,8 @@ car:
     - rhs_uaz_open_vv
   cargo:
     items:
-      - 8x ACE_NVG_Gen4
+      - 8x ACE_NVG_Gen2
+      - 8x ACE_Flashlight_XL50
       - 8x ACE_Chemlight_HiYellow
       - 8x ACE_Chemlight_HiRed
 
@@ -113,7 +114,8 @@ truck:
     ammo:
       - 6x rhs_30Rnd_545x39_AK
     items:
-      - 15x ACE_NVG_Gen4
+      - 15x ACE_NVG_Gen2
+      - 15x ACE_Flashlight_XL50
       - 15x ACE_Chemlight_HiYellow
       - 15x ACE_Chemlight_HiRed
 
@@ -145,7 +147,8 @@ apc:
       - 9x rhs_30Rnd_545x39_AK
       - rhs_rpg26_mag
     items:
-      - 10x ACE_NVG_Gen4
+      - 10x ACE_NVG_Gen2
+      - 10x ACE_Flashlight_XL50
       - 10x ACE_Chemlight_HiYellow
       - 10x ACE_Chemlight_HiRed
 
@@ -172,7 +175,8 @@ mrap:
       - 9x rhs_30Rnd_545x39_AK
       - rhs_rpg26_mag
     items:
-      - 10x ACE_NVG_Gen4
+      - 10x ACE_NVG_Gen2
+      - 10x ACE_Flashlight_XL50
       - 10x ACE_Chemlight_HiYellow
       - 10x ACE_Chemlight_HiRed
 
@@ -253,7 +257,8 @@ ifv:
       - rhs_rpg7_PG7VL_mag
       - rhs_rpg7_OG7V_mag
     items:
-      - 10x ACE_NVG_Gen4
+      - 10x ACE_NVG_Gen2
+      - 10x ACE_Flashlight_XL50
       - 10x ACE_Chemlight_HiYellow
       - 10x ACE_Chemlight_HiRed
 
@@ -284,7 +289,8 @@ mbt:
     ammo:
       - 9x rhs_30Rnd_545x39_AK
     items:
-      - 3x ACE_NVG_Gen4
+      - 3x ACE_NVG_Gen2
+      - 3x ACE_Flashlight_XL50
       - 3x ACE_Chemlight_HiYellow
       - 3x ACE_Chemlight_HiRed
 
@@ -305,7 +311,8 @@ artillery:
     ammo:
       - 9x rhs_30Rnd_545x39_AK
     items:
-      - 3x ACE_NVG_Gen4
+      - 3x ACE_NVG_Gen2
+      - 3x ACE_Flashlight_XL50
       - 3x ACE_Chemlight_HiYellow
       - 3x ACE_Chemlight_HiRed
 
@@ -327,7 +334,8 @@ anti-aircraft:
     ammo:
       - 9x rhs_30Rnd_545x39_AK
     items:
-      - 3x ACE_NVG_Gen4
+      - 3x ACE_NVG_Gen2
+      - 3x ACE_Flashlight_XL50
       - 3x ACE_Chemlight_HiYellow
       - 3x ACE_Chemlight_HiRed
 
@@ -353,7 +361,8 @@ heli_transport:
     ammo:
       - 12x rhs_30Rnd_545x39_AK
     items:
-      - 15x ACE_NVG_Gen4
+      - 15x ACE_NVG_Gen2
+      - 15x ACE_Flashlight_XL50
       - 15x ACE_Chemlight_HiYellow
       - 15x ACE_Chemlight_HiRed
 
@@ -408,7 +417,8 @@ heli_attack:
     ammo:
       - 6x rhs_30Rnd_545x39_AK
     items:
-      - 2x ACE_NVG_Gen4
+      - 2x ACE_NVG_Gen2
+      - 2x ACE_Flashlight_XL50
       - 2x ACE_Chemlight_HiYellow
       - 2x ACE_Chemlight_HiRed
 
@@ -421,7 +431,8 @@ plane_transport:
     ammo:
       - 9x rhs_30Rnd_545x39_AK
     items:
-      - 50x ACE_NVG_Gen4
+      - 50x ACE_NVG_Gen2
+      - 50x ACE_Flashlight_XL50
       - 50x ACE_Chemlight_HiYellow
       - 50x ACE_Chemlight_HiRed
 
@@ -446,7 +457,8 @@ plane_attack:
     ammo:
       - 6x rhs_30Rnd_545x39_AK
     items:
-      - 2x ACE_NVG_Gen4
+      - 2x ACE_NVG_Gen2
+      - 2x ACE_Flashlight_XL50
       - 2x ACE_Chemlight_HiYellow
       - 2x ACE_Chemlight_HiRed
 
@@ -462,6 +474,7 @@ boat:
     - O_T_Lifeboat
   cargo:
     items:
-      - 4x ACE_NVG_Gen4
+      - 4x ACE_NVG_Gen2
+      - 4,x ACE_Flashlight_XL50
       - 4x ACE_Chemlight_HiYellow
       - 4x ACE_Chemlight_HiRed

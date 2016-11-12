@@ -4,6 +4,15 @@ if (hasInterface) then {
 		// empty
 	};
 
+	stealIntel = {
+		{
+			_laptop = missionNamespace getVariable [_x, objNull];
+			if (!isNil "_laptop") then {
+				deleteVehicle _laptop;
+			};
+		} forEach ["laptop", "laptop2", "computer", "money", "evidences", "files"];
+		hint "intel volée !";
+	};
 
 /* Hereafter an example to manage Flag value
 	doSomethingThenSetFlagsValue = {
