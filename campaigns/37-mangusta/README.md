@@ -18,7 +18,7 @@ The tape is an audio record about a secret meeting of Russian Commanders which h
 
 # Scoreboard
 
-![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/scoreboard.png)
+![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/scoreboard3.png)
 
 # Tactical Map
 
