@@ -29,8 +29,8 @@ OMTK_LM_BLUEFOR_OB = [
   ["APC: 1x M-113 (M2) - 10 pax", 2, ["rhsusf_m113d_usarmy"]],
   ["APC: 1x M-117 - 7 pax", 3, ["rhsusf_M1117_D"]],
   ["MRAP: 1x RG-33 (M2) - 8 pax", 3, ["rhsusf_rg33_m2_d"]],
-  ["CAR: 2x M-1025 (M2 + MK19) - 8 pax", 3, ["rhsusf_m1025_d_m2", "rhsusf_m1025_d_Mk19"]],
-  ["CAR: 1x M-1097 (unarmed) - 8 pax", 4, ["rhsusf_m998_d_2dr_halftop"]]
+  ["CAR: 2x M-1025 (M2 + MK19) - 8 pax", 3, ["rhsusf_m1025_d_s_m2", "rhsusf_m1025_d_s_Mk19"]],
+  ["CAR: 1x M-1097 (unarmed) - 8 pax", 4, ["rhsusf_m998_d_s_2dr_halftop"]]
 ];
 
 OMTK_LM_REDFOR_OB = [
