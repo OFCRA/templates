@@ -31,14 +31,14 @@ omtk_sb_compute_scoreboard = {
 		_dmg = damage _x;
 
 		if(_side==east) then {
-			if (alive _x) then { [omtk_sb_redfor_survivors, _name] call BIS_fnc_arrayPush; };
+			if ((damage player) < 0.975) then { [omtk_sb_redfor_survivors, _name] call BIS_fnc_arrayPush; };
 		}
 		else {
 			if(_side==west) then { 
-				if (alive _x) then { [omtk_sb_bluefor_survivors, _name] call BIS_fnc_arrayPush; };
+				if ((damage player) < 0.975) then { [omtk_sb_bluefor_survivors, _name] call BIS_fnc_arrayPush; };
 			};
 		};
-	} forEach allUnits;
+	} forEach allPlayers;
 	
 	missionNamespace setVariable ["omtk_sb_bluefor_survivors", omtk_sb_bluefor_survivors];
 	missionNamespace setVariable ["omtk_sb_redfor_survivors", omtk_sb_redfor_survivors];
@@ -112,6 +112,7 @@ omtk_sb_getObjectiveResult = {
 			_res = true;
 			_omtk_sb_flags = missionNamespace getVariable "omtk_sb_flags";
 			{
+				_x = _x select 0;
 				_log = "Get " + str _x + " / " + str (count _omtk_sb_flags) + " : " + str (_omtk_sb_flags select _x);
 				//[ _log, "INFO",false] call omtk_log;
 				if (!(_omtk_sb_flags select _x)) then { _res = false; };

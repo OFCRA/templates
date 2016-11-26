@@ -4,14 +4,9 @@ if (hasInterface) then {
 		// empty
 	};
 
-	stealIntel = {
-		{
-			_laptop = missionNamespace getVariable [_x, objNull];
-			if (!isNil "_laptop") then {
-				deleteVehicle _laptop;
-			};
-		} forEach ["laptop", "laptop2", "computer", "money", "evidences", "files"];
-		hint "intel volée !";
+	sabotage = {
+		hint "generator disabled !";
+		[1, false] call omtk_setFlagResult; 
 	};
 
 /* Hereafter an example to manage Flag value

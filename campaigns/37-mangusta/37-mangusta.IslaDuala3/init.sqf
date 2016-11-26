@@ -15,9 +15,9 @@ OMTK_TP_REDFOR_RESTRICTIONS = [
 execVM "customScripts.sqf";
 
 OMTK_SB_LIST_OBJECTIFS = [
-  [5, "BLUEFOR", "SURVIVAL", "Protect the laptop", ["LIST", ["laptop"]] ],
-  [5, "REDFOR", "ACTION", "Steal the intel", "laptop", 0, {call stealIntel;}],
-  [3, "BLUEFOR+REDFOR", "INSIDE", "Capture Larenga military zone", "military_zone", ["DIFF", 1] ],
+  [5, "BLUEFOR", "ACTION", "Sabotage the generator", "generator", 0, {call sabotage;}],
+  [5, "REDFOR", "FLAG", "Defend the generator", [[1,true]] ],
+  [3, "BLUEFOR+REDFOR", "INSIDE", "Capture Pumado base", "cap_area", ["DIFF", 1] ],
   [2, "BLUEFOR", "DESTRUCTION", "Supremacy Bonus", ["REDFOR", 5] ],
   [2, "REDFOR", "DESTRUCTION", "Supremacy Bonus", ["BLUEFOR", 5] ]
 ];
@@ -25,6 +25,7 @@ OMTK_SB_LIST_OBJECTIFS = [
 OMTK_LM_BLUEFOR_OB = [
   ["PER_GROUP", 1],
   ["AIR: 1x UH-60M Blackhawk - 10x pax", 2, ["RHS_UH60M_d"]],
+  ["AIR: 8x Parachutes - 8x pax", 4, ["rhsusf_gear_crate"]],
   ["IFV: 1x M2A3 Bradley - 10x pax", 2, ["RHS_M2A3"]],
   ["APC: 1x M-113 (M2) - 10 pax", 2, ["rhsusf_m113d_usarmy"]],
   ["APC: 1x M-117 - 7 pax", 3, ["rhsusf_M1117_D"]],

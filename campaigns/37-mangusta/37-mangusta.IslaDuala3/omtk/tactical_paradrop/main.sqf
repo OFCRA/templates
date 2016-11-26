@@ -6,7 +6,7 @@ if (hasInterface) then {
 	};
 
 	omtk_tp_paradrop_on = {
-		["B_Parachute"] call omtk_tp_create_vehicle;
+		//["B_Parachute"] call omtk_tp_create_vehicle;
 		onMapsingleClick "[] call omtk_tp_jump;";
 	};
 
@@ -30,6 +30,13 @@ if (hasInterface) then {
 			} forEach _restrictions;
 		};
 		_result;
+	};
+
+
+	omtk_jump_add_action = {
+		_action = ["OMTK_PARADROP","Paradrop","omtk\tactical_paradrop\img\paradrop.paa",{call omtk_tp_paradrop_on;},{true;}] call ace_interact_menu_fnc_createAction;
+		[player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+		[omtk_tp_paradrop_off, [], ("OMTK_MODULE_TACTICAL_PARADROP_TIME_LIMIT" call BIS_fnc_getParamValue)*60] call KK_fnc_setTimeout;	
 	};
 
 
@@ -73,9 +80,7 @@ if (hasInterface) then {
 	};
 
 	if (_canJump) then {
-		_action = ["OMTK_PARADROP","Paradrop","omtk\tactical_paradrop\img\paradrop.paa",{call omtk_tp_paradrop_on;},{true;}] call ace_interact_menu_fnc_createAction;
-		[player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
-		[omtk_tp_paradrop_off, [], ("OMTK_MODULE_TACTICAL_PARADROP_TIME_LIMIT" call BIS_fnc_getParamValue)*60] call KK_fnc_setTimeout;
+		call omtk_jump_add_action;
 	};
 
 	["tactical_paradrop end", "INFO", false] call omtk_log;

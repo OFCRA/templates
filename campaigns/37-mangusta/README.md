@@ -9,21 +9,25 @@ There had been two different states before: the Democratic Republic of Bongobo, 
 
 Recently, Kremlin decided to take the control of  the DRB (Democratic Republic of Bongobo) which is a rich land with petrol resources. The industry have been nicely developed for dozen years. Several troubles have broken the quietness of the peaceful countries, closed to the border in-between. Economical difficulties have implications worldwide.
 
-## Russian Operations Center - Pinley, 2016-15-05
+## Russian Operations Center - Pinley, 2016-09-05
 Only the clock hand breaks the profound silence of meeting room B-36. Dark eyes browse the whole assembly of ranked commanders. No one is missing. Time is up, the conclusion is delivered by an embarrassed voice:<br>- "Da." says General K.<br>All of them know how hard the task will be, and how big the troubles could become. The biggest military operation of the History will threaten the Island of Duala soon: Russia is ready to expanse his territory by invading Swazili.
 
-## US HQ - Camara, 2016-15-06
+## US HQ - Camara, 2016-09-06
 An extremely important document is given to Général A. GRANT, officer from Washington to administrate Swazili state under American supervision.
 The tape is an audio record about a secret meeting of Russian Commanders which happened yesterday. Both the translators feel annoyed about what they are listening to: Russians are going to lead an invasion and take the power on the whole island. The alert level is immediately raised to the maximum, and mobilization of military forces all along the border is on-the-go.
 
+## Kinsela Airport, Swazili - 2016-11-26
+Airborne division have been assigned to Swazili theater to support local forces. One C-130J Hercule landed at Kinsella Airport this afternoon. The aircraft provides tactical paradrop abilities for next missions in the campaign.
+![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/c130.png)
+
 # Scoreboard
 
-![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/scoreboard3.png)
+![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/scoreboard.png)
 
 # Tactical Map
 
-![](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map_s.jpg)  
-[click to enlarge](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map.jpg)
+![](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map2_s.jpg)  
+[click to enlarge](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map2.jpg)
 
 *Legend*
 
@@ -133,11 +137,12 @@ To help you to find your vehicle, here after are the bases for both sides:
 | ![USA](http://www.ofcrav2.org/images/publiques/flag_usa.jpg) | ![Russia](http://www.ofcrav2.org/images/publiques/flag_russia.jpg) |
 |:-------------------------------------------------------------|:-------------------------------------------------------------------|
 | **HELICO: UH-60M - 10 pax** <br>![uh-60](http://www.ofcrav2.org/images/publiques/icons/uh-60.png)<br>Restrictions: /mission: **x2**  - /campaign: **x4**<br>Slots: infantry: **x8**  - Aircrew: **x2**<br>Avail.: **x3**<br>Note: *locked for the 10 first min.* | **HELICO: Mi-8MT - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/mi-8mt.png)<br>Restrictions: /mission: **x2**  - : /campaign: **x4**<br>Slots: infantry: **x7**  - Aircrew: **x2**<br>Avail.: **x4**<br>Note: *locked for the 10 first min.* |
-| **IFV: M2A3 - 8 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m2a3.png)<br>Restrictions: /mission: **x2**  - /campaign: **x5**<br>Slots: infantry: **x6**  - Ground Crew: **x2**<br>Avail.: **x3**<br> | **IFV: BMP-3 (late) - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/bmp-3.png)<br>Restrictions: /mission: **x2**  - /campaign: **x5**<br>Slots: infantry: **x7**  - Ground Crew: **x2**<br>Avail.: **x4**<br>|
+| **Paradrop: Steerable parachutes - 8 pax** <br>![parachute](http://www.ofcrav2.org/images/publiques/icons/parachute.png)<br>Restrictions: /mission: **x4**  - /campaign: **unlimited**<br>Slots: infantry: **x8**  - Aircrew: **x0**<br>Avail.: **unlimited**<br>Note: *jump timeslot is +10min. => +15min.* | |
+| **IFV: M2A3 - 8 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m2a3.png)<br>Restrictions: /mission: **x2**  - /campaign: **x5**<br>Slots: infantry: **x6**  - Ground Crew: **x2**<br>Avail.: **x2**<br> | **IFV: BMP-3 (late) - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/bmp-3.png)<br>Restrictions: /mission: **x2**  - /campaign: **x5**<br>Slots: infantry: **x7**  - Ground Crew: **x2**<br>Avail.: **x3**<br>|
 | **APC: M-113 (M2) - 10 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m113.png)<br>Restrictions: /mission: **x2**  - /campaign: **x8**<br>Slots: infantry: **x8**  - Ground Crew: **x2**<br>Avail.: **x8**<br> | **APC: BTR-80 - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/btr-80.png)<br>Restrictions: /mission: **x2**  - /campaign: **x8**<br>Slots: infantry: **x7**  - Ground Crew: **x2**<br>Avail.: **x7**<br> | 
-| **APC: M-117 - 7 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m117.png)<br>Restrictions: /mission: **x3**  - /campaign: **x8**<br>Slots: infantry: **x5**  - Ground Crew: **x2**<br>Avail.: **x6**<br> | **APC: BRDM-2 - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/brdm-2.png)<br>Restrictions: /mission: **x3**  - /campaign: **x8**<br>Slots: infantry: **x7**  - Ground Crew: **x2**<br>Avail.: **x8**<br> |
+| **APC: M-117 - 7 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m117.png)<br>Restrictions: /mission: **x3**  - /campaign: **x8**<br>Slots: infantry: **x5**  - Ground Crew: **x2**<br>Avail.: **x4**<br> | **APC: BRDM-2 - 9 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/brdm-2.png)<br>Restrictions: /mission: **x3**  - /campaign: **x8**<br>Slots: infantry: **x7**  - Ground Crew: **x2**<br>Avail.: **x8**<br> |
 | **MRAP: RG-33 (M2) - 8 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/rg-33.png)<br>Restrictions: /mission: **x3**  - /campaign: **x8**<br>Slots: infantry: **x8**  - Ground Crew: **x0**<br>Avail.: **x8**<br> | **APC: BRDM-2 (AT) - 7 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/brdm-2at.png)<br>Restrictions: /mission: **x2**  - /campaign: **x6**<br>Slots: infantry: **x5**  - Ground Crew: **x2**<br>Avail.: **x4**<br>|
-| **CAR: M-1025 (M2) + M-1025 (MK19) - 8 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m1025-m2.png)![img](http://www.ofcrav2.org/images/publiques/icons/m1025-mk19.png)<br>Restrictions: /mission: **x3**  - /campaign: **x10**<br>Slots: infantry: **x8**  - Crew: **x0**<br>Avail.: **x8**<br> | **CAR: GAZ-233011 (PKP/GP25) - 7 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/gaz-233011.png)<br>Restrictions: /mission: **x3**  - /campaign: **x10**<br>Slots: infantry: **x7**  - Crew: **x0**<br>Avail.: **x7**<br> |
+| **CAR: M-1025 (M2) + M-1025 (MK19) - 8 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m1025-m2.png)![img](http://www.ofcrav2.org/images/publiques/icons/m1025-mk19.png)<br>Restrictions: /mission: **x3**  - /campaign: **x10**<br>Slots: infantry: **x8**  - Crew: **x0**<br>Avail.: **x7**<br> | **CAR: GAZ-233011 (PKP/GP25) - 7 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/gaz-233011.png)<br>Restrictions: /mission: **x3**  - /campaign: **x10**<br>Slots: infantry: **x7**  - Crew: **x0**<br>Avail.: **x5**<br> |
 | **CAR: M-1097 - 8 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/m1097.png)<br>Restrictions: /mission: **unlimited**  - /campaign: **unlimited**<br>Slots: infantry: **x8**  - Crew: **x0**<br>Avail.: **unlimited**<br> | **CAR: UAZ (open) - 7 pax**<br>![img](http://www.ofcrav2.org/images/publiques/icons/uaz-open.png)<br>Restrictions: /mission: **unlimited**  - /campaign: **unlimited**<br>Slots: infantry: **x7**  - Crew: **x0**<br>Avail.: **unlimited**<br> |
 
 ## Groups and Slots
