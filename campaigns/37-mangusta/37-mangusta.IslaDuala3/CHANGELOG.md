@@ -6,6 +6,12 @@
 @ bug fix  
 !! security patch  
 
+
+### V2.4.0 - 2016-12-14
+\+ [tactical_paradrop] add timeslot delay parameter in init.sqf
+~ [tactical_paradrop] no more paradrop generated aside the unit on the paradrop ACE menu action (still for map exploration though)
+~ [score_board] survivors in objectives are now restricted to players (no IA) whose life is below 0.975 (unconscious are not survivors anymore)
+
 ### V2.3.3 - 2016-09-28
 ~ [omtk-loadouts] upgrade omtk-loadouts.exe to v1.0.1
 ~ [omtk-loadouts] add all RHS vehicles in vehicle cargos definition

@@ -5,6 +5,7 @@ omtk_sb_mission_end = {
 	};
 };
 
+
 omtk_sb_start_mission_end = {
   remoteExec ["omtk_sb_mission_end"]; 
 };
@@ -18,6 +19,7 @@ omtk_sb_computing_display = {
 		[_computing_txt,0,0,15,0] spawn BIS_fnc_dynamicText;
 	};
 };
+
 
 omtk_sb_compute_scoreboard = {
 	remoteExec ["omtk_sb_computing_display"];

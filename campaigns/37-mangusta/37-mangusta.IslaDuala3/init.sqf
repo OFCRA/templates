@@ -1,6 +1,6 @@
 ////// OMTK CONFIGURATION
 
-// tactical_paradrop: définition des limitations de zones (optionnelles)
+// tactical_paradrop: area restriction (optional)
 OMTK_TP_BLUEFOR_RESTRICTIONS = [
   //[x_coordinate, y_coordinate, radius_in_m],
 ];
@@ -8,6 +8,10 @@ OMTK_TP_BLUEFOR_RESTRICTIONS = [
 OMTK_TP_REDFOR_RESTRICTIONS = [
   //[x_coordinate, y_coordinate, radius_in_m],
 ];
+
+// tactical_paradrop: delay before enabling paradrop feature (optional)
+OMTK_TP_BLUEFOR_DELAY = 600; // delay in seconds
+OMTK_TP_REDFOR_DELAY = 0; // delay in seconds
 
 // score_board: objectives and mission duration
 // OMTK_SB_MISSION_DURATION_OVERRIDE = [0, 0, 0]; // [hours, minutes, seconds]
