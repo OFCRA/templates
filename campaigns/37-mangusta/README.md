@@ -26,8 +26,8 @@ Airborne division have been assigned to Swazili theater to support local forces.
 
 # Tactical Map
 
-![](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map2_s.jpg)  
-[click to enlarge](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map2.jpg)
+![](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map_s.jpg)  
+[click to enlarge](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map.jpg)
 
 *Legend*
 

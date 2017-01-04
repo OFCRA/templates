@@ -11,7 +11,7 @@ OMTK_TP_REDFOR_RESTRICTIONS = [
 
 // tactical_paradrop: delay before enabling paradrop feature (optional)
 OMTK_TP_BLUEFOR_DELAY = 600; // delay in seconds
-OMTK_TP_REDFOR_DELAY = 0; // delay in seconds
+OMTK_TP_REDFOR_DELAY = 600; // delay in seconds
 
 // score_board: objectives and mission duration
 // OMTK_SB_MISSION_DURATION_OVERRIDE = [0, 0, 0]; // [hours, minutes, seconds]
@@ -19,9 +19,9 @@ OMTK_TP_REDFOR_DELAY = 0; // delay in seconds
 execVM "customScripts.sqf";
 
 OMTK_SB_LIST_OBJECTIFS = [
-  [5, "BLUEFOR", "ACTION", "Sabotage the generator", "generator", 0, {call sabotage;}],
-  [5, "REDFOR", "FLAG", "Defend the generator", [[1,true]] ],
-  [3, "BLUEFOR+REDFOR", "INSIDE", "Capture Pumado base", "cap_area", ["DIFF", 1] ],
+  [5, "REDFOR", "DESTRUCTION", "Kill the officer", ["LIST", ["officer"]] ], 
+  [5, "BLUEFOR", "SURVIVAL", "Protect the officer", ["LIST", ["officer"]] ], 
+  [3, "BLUEFOR+REDFOR", "INSIDE", "Capture US Ambassy", "cap_area", ["DIFF", 1] ],
   [2, "BLUEFOR", "DESTRUCTION", "Supremacy Bonus", ["REDFOR", 5] ],
   [2, "REDFOR", "DESTRUCTION", "Supremacy Bonus", ["BLUEFOR", 5] ]
 ];
