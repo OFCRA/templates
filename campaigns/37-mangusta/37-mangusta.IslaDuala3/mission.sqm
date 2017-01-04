@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1103;
+		nextID=1107;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3640.2446,183.44731,2201.5417};
-		dir[]={0.046249982,-0.35974312,0.93203795};
-		up[]={0.017834974,0.93296713,0.35940614};
-		aside[]={0.99889004,-1.2118835e-006,-0.049574379};
+		pos[]={4061.0793,130.68347,8782.5205};
+		dir[]={0.60073578,-0.40107462,0.69174165};
+		up[]={0.26304448,0.91595256,0.30289358};
+		aside[]={0.7551105,1.9253639e-007,-0.65577126};
 	};
 };
 binarizationWanted=0;
@@ -513,7 +513,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=428;
+		items=432;
 		class Item0
 		{
 			dataType="Object";
@@ -27501,6 +27501,165 @@ class Mission
 								};
 							};
 							value="[[[[], []], [[], []], [[], []], [[], []]], false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item428
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4322.4512,8.9578028,8947.8965};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this setVariable['omtk_redfor_spawn',0];";
+			};
+			id=1103;
+			type="rhsusf_gear_crate";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[""ItemMap"",""ACE_Altimeter""],[8,8]],[[""B_Parachute""],[8]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item429
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4318.9639,8.9578028,8942.3496};
+				angles[]={0,2.0071809,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this setVariable['omtk_redfor_spawn',0];";
+			};
+			id=1104;
+			type="rhsusf_gear_crate";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[""ItemMap"",""ACE_Altimeter""],[8,8]],[[""B_Parachute""],[8]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item430
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4313.915,8.9578028,8937.6992};
+				angles[]={0,4.99612,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this setVariable['omtk_redfor_spawn',0];";
+			};
+			id=1105;
+			type="rhsusf_gear_crate";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[""ItemMap"",""ACE_Altimeter""],[8,8]],[[""B_Parachute""],[8]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item431
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4313.1699,8.9578028,8933.2109};
+				angles[]={0,6.0946374,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this setVariable['omtk_redfor_spawn',0];";
+			};
+			id=1106;
+			type="rhsusf_gear_crate";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[""ItemMap"",""ACE_Altimeter""],[8,8]],[[""B_Parachute""],[8]]],false]";
 						};
 					};
 				};

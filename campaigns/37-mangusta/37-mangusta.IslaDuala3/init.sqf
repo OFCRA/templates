@@ -41,6 +41,7 @@ OMTK_LM_BLUEFOR_OB = [
 OMTK_LM_REDFOR_OB = [
   ["PER_GROUP", 1],
   ["AIR: 1x Mi-8MT - 9x pax", 2, ["RHS_Mi8mt_vv"]],
+  ["AIR: 8x Parachutes - 8x pax", 4, ["rhsusf_gear_crate"]],
   ["IFV: 1x BMP-3 (late) - 9x pax", 2, ["rhs_bmp3_late_msv"]],
   ["APC: 1x BTR-80 - 9 pax", 2, ["rhs_btr80_msv"]],
   ["APC: 1x BRDM-2 - 9 pax", 3, ["rhsgref_BRDM2_msv"]],
