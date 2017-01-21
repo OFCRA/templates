@@ -19,9 +19,9 @@ OMTK_TP_REDFOR_DELAY = 600; // delay in seconds
 execVM "customScripts.sqf";
 
 OMTK_SB_LIST_OBJECTIFS = [
-  [5, "REDFOR", "DESTRUCTION", "Kill the officer", ["LIST", ["officer"]] ], 
-  [5, "BLUEFOR", "SURVIVAL", "Protect the officer", ["LIST", ["officer"]] ], 
-  [3, "BLUEFOR+REDFOR", "INSIDE", "Capture US Ambassy", "cap_area", ["DIFF", 1] ],
+  [5, "REDFOR", "SURVIVAL", "Defend the power station", ["LIST", ["power1", "power2"]] ], 
+  [5, "BLUEFOR", "DESTRUCTION", "Destroy the 2 power units", ["LIST", ["power1", "power2"]] ], 
+  [3, "BLUEFOR+REDFOR", "INSIDE", "Capture military base", "cap_area", ["DIFF", 1] ],
   [2, "BLUEFOR", "DESTRUCTION", "Supremacy Bonus", ["REDFOR", 5] ],
   [2, "REDFOR", "DESTRUCTION", "Supremacy Bonus", ["BLUEFOR", 5] ]
 ];
@@ -30,9 +30,8 @@ OMTK_LM_BLUEFOR_OB = [
   ["PER_GROUP", 1],
   ["AIR: 1x UH-60M Blackhawk - 10x pax", 2, ["RHS_UH60M_d"]],
   ["AIR: 8x Parachutes - 8x pax", 4, ["rhsusf_gear_crate"]],
-  ["IFV: 1x M2A3 Bradley - 10x pax", 2, ["RHS_M2A3"]],
   ["APC: 1x M-113 (M2) - 10 pax", 2, ["rhsusf_m113d_usarmy"]],
-  ["APC: 1x M-117 - 7 pax", 3, ["rhsusf_M1117_D"]],
+  ["APC: 1x M-117 - 7 pax", 2, ["rhsusf_M1117_D"]],
   ["MRAP: 1x RG-33 (M2) - 8 pax", 3, ["rhsusf_rg33_m2_d"]],
   ["CAR: 2x M-1025 (M2 + MK19) - 8 pax", 3, ["rhsusf_m1025_d_s_m2", "rhsusf_m1025_d_s_Mk19"]],
   ["CAR: 1x M-1097 (unarmed) - 8 pax", 4, ["rhsusf_m998_d_s_2dr_halftop"]]
@@ -41,8 +40,8 @@ OMTK_LM_BLUEFOR_OB = [
 OMTK_LM_REDFOR_OB = [
   ["PER_GROUP", 1],
   ["AIR: 1x Mi-8MT - 9x pax", 2, ["RHS_Mi8mt_vv"]],
-  ["AIR: 8x Parachutes - 8x pax", 4, ["rhsusf_gear_crate"]],
-  ["IFV: 1x BMP-3 (late) - 9x pax", 2, ["rhs_bmp3_late_msv"]],
+//  ["AIR: 8x Parachutes - 8x pax", 4, ["rhsusf_gear_crate"]],
+  ["IFV: 1x BMP-3 (late) - 9x pax", 1, ["rhs_bmp3_late_msv"]],
   ["APC: 1x BTR-80 - 9 pax", 2, ["rhs_btr80_msv"]],
   ["APC: 1x BRDM-2 - 9 pax", 3, ["rhsgref_BRDM2_msv"]],
   ["APC: 1x BRDM-2 (AT) - 7 pax", 2, ["rhsgref_BRDM2_ATGM_msv"]],
