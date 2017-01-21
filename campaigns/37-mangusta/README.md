@@ -22,12 +22,12 @@ Airborne division have been assigned to Swazili theater to support local forces.
 
 # Scoreboard
 
-![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/scoreboard.png)
+![img](https://raw.githubusercontent.com/OFCRA/templates/master/campaigns/37-mangusta/img/scoreboard.png)
 
 # Tactical Map
 
-![img](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map_s.jpg)  
-[click to enlarge](http://www.ofcrav2.org/images/Campagne/37-mangusta/tactical_map.jpg)
+![img](https://raw.githubusercontent.com/OFCRA/templates/master/campaigns/37-mangusta/img/tactical_map_s.jpg)  
+[click to enlarge](https://raw.githubusercontent.com/OFCRA/templates/master/campaigns/37-mangusta/img/tactical_map.jpg)
 
 *Legend*
 
