@@ -1,5 +1,5 @@
 author = "OFCRA"; 	// TO BE DEFINED
-onLoadName = "MANGUSTA v6.0";	// TO BE DEFINED
+onLoadName = "MANGUSTA v6.1";	// TO BE DEFINED
 onLoadMission = "www.ofcra.org";	// TO BE DEFINED
 onLoadIntro = "Prepare for the fight !";	// TO BE DEFINED
 loadScreen = "loadscreen.jpg";
@@ -11,7 +11,7 @@ respawn = "BASE";
 respawnDelay = 999999;
 
 onebugConsole = 0;
-disableChannels[]={0,5,6};
+//disableChannels[]={{1,true,true},{2,true,false},{3,true,false},{4,true,false},{5,true,false}};
 
 
 class Header {
@@ -108,7 +108,13 @@ class Params
 		values[] = {0,1};
 		default = 1;
 	};
-
+	class OMTK_MODULE_MARKERS_DISABLING
+	{
+		title = "Map markers disabling";
+		texts[] = {"off","on"};
+		values[] = {0,1};
+		default = 0;
+	};
 	class OMTK_MODULE_RADIO_LOCK
 	{
 		title = "Radio lock";
